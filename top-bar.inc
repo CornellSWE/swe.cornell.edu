@@ -30,47 +30,51 @@
                   <ul class="dropdown">
                     <li><a href="eboard.asp">Executive Board</a></li>
                     <li><a href="directorships.asp">Directorships</a></li>
-                    <li><a href="grad_programs.asp">Graduate Student Programs</a></li>
                     <li><a href="awards.asp">Awards</a></li>
-                    <li><a href="conference.asp">Conference</a></li>
+                    <li><a href="grad_programs.asp">Graduate Student Programs</a></li>
+                    
+         <!--       <li><a href="conference.asp">Conference</a></li>
                     <li><a href="photos.asp">Photos</a></li>
-                    <li><a href="outreach.asp">Outreach</a></li>
+                    <li><a href="outreach.asp">Outreach</a></li>-->
                   </ul>
                 </li>
                 <li class="divider"></li>
                 <li class="has-dropdown">
                   <a href="#">Events</a>
                   <ul class="dropdown">
+                    <li><a href="outreach.asp">Outreach</a></li>
                     <li><a href="pnd.asp">Professional Networking Dinner</a></li>
 		    <li><a href="welcome_picnic.asp">Welcome Picnic</a></li>
 		    <li><a href="student_faculty_dinner.asp">Student-Faculty Dinner</a></li>
+		    <li><a href="conference.asp">Conference</a></li>	
 	<!--	    <li><a href="wie_wkend.asp">WIE Weekend</a></li>
 		    <li><a href="diversity_wkend.asp">Diversity Weekend</a></li>-->
-		    <li><a href="gbodies.asp">General Body Meetings</a></li>
                   </ul>
                 </li>
                 <li class="divider"></li>
                 <li class="has-dropdown">
-                  <a href="#">Employers</a>
+                  <a href="#">Corporate</a>
                   <ul class="dropdown">
-                    <li><a href="info_session.asp">Host an Information Session</a></li>
                     <li><a href="support.asp">Support SWE</a></li>
                     <li><a href="sponsors.asp">Our Sponsors</a></li>
-                    <li><a href="pnd.asp">Professional Networking Dinner</a></li>
-		    <li><a href="http://swe.cornell.edu/cr_main.asp">Corporate Relations</a></li>
+                    <li><a href="info_session.asp">Host an Information Session</a></li>
+         <!--       <li><a href="pnd.asp">Professional Networking Dinner</a></li>
+		    <li><a href="http://swe.cornell.edu/cr_main.asp">Corporate Relations</a></li>-->
                   </ul>
                 </li>
                 <li class="divider"></li>
                 <li class="has-dropdown">
                   <a href="#">Members</a>
                   <ul class="dropdown">
-                    <li><a href="get_involved.asp">Get Involved</a></li>
-              		  <li><a href="scholarships.asp">Scholarships</a></li>
-              	    <li><a href="merchandise.asp">Merchandise</a></li>
+                    
+		    <li><a href="gbodies.asp">General Body Meetings</a></li>
+		    <li><a href="get_involved.asp">Get Involved</a></li>
+		    <li><a href="scholarships.asp">Scholarships</a></li>
+          <!--	    <li><a href="merchandise.asp">Merchandise</a></li>
                     <li><a href="documents.asp">Documents</a></li>
                     <li><a href="resources.asp">Resources</a></li>
                     <li><a href="newsletters.asp">Newsletters</a></li>
-                    <li><a href="podcasts.asp">Podcasts</a></li>
+                    <li><a href="podcasts.asp">Podcasts</a></li>-->
                   </ul>
                 </li>
               </ul>
