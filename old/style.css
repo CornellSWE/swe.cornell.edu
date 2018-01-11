@@ -1,0 +1,168 @@
+/* CSS Document */
+BODY{
+margin:0px;
+font-family:Helvetica, Arial, sans-serif;
+background-color: #ffffff;
+}
+
+.header{
+height:120px;
+margin-left: 50px;
+background-color:#AA1414;
+color:#FFFFFF;
+margin:0px;
+}
+
+.ddsmoothmenu {
+margin-left: 50px;
+}
+.navigation{
+	color:#999999;
+	margin-left: 50px;
+	font-weight:bold;
+	padding-top: 10px;
+}
+
+
+.menu {
+background-color: #414141;
+width: 100%;
+}
+
+.nav{
+color:#CCCCCC;
+text-decoration:none;
+}
+
+.nav:hover{
+color:#CCCCCC;
+text-decoration:none;
+}
+
+.img_content{
+float:left;
+margin-right:5px;
+clear:both;}
+
+.logo{
+	color:#FFFFFF;
+	font-size:100px;
+	font-weight:bold;
+	margin-left:50px;
+	margin-top: -115px;
+	margin-bottom: -80px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	letter-spacing:-8px;
+}
+
+.article_content{
+width:308px;
+float:right;
+margin-top: 20px;
+font-size:12px}
+
+.main_body{
+width:880px;
+}
+
+.content_holder{
+width:570px;
+margin-left:50px;
+float:left;
+background-color:#FFFFFF;
+margin-top:20px;
+font-size: 13px;
+}
+
+.sub_content{
+width:240px;
+float:right;
+background-color:#FFFFFF;
+margin-top:20px;
+font-size:12px;}
+
+.hr{
+background-image:url(images/dot.gif);
+background-repeat:repeat-x;
+height:1px;
+margin-top:6px;
+}
+.footer{
+clear:both;
+background-color:#000000;
+min-height:120px;
+margin-top:25px;
+padding-left:50px;
+padding-top:25px;
+position:relative;
+bottom: 0px;
+font-size:11px;
+width:auto;
+}
+
+.disclaimer{
+float:right;
+width:50%;
+color:#CCCCCC;
+text-align:right;}
+
+
+a:link, a:active, a:visited {
+	color: #AA1414;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+	}
+
+
+h2 {
+	margin: 0;
+	color: #000;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+h2 a:link, h2 a:hover, h2 a:visited {
+	color: #000;
+	text-decoration: none;
+}
+	
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	color: #000;
+	margin: 0;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover {
+	text-decoration: none;
+	color: #000;
+}
+	
+h4 {
+	margin: 0;
+	color: #000;
+	font-size: 13px;
+}
+
+h3 {
+	margin: 0 0 8px 0;
+	color: #999;
+	font-size: 19px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+h5 {
+	margin: 0 0 8px 0;
+	color: #999;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
