@@ -126,7 +126,7 @@ The Spring 2018 PND will be held on Februrary 6th at the Statler Hotel's Grand B
 <!-- Company registration is currently closed.  Any company with questions regarding the event may direct their inquiries to <a href="mailto:cornellswe.pnd@gmail.com" target="_blank"><u>cornellswe.pnd@gmail.com</u></a> -->
 <p>
   <center><a class="grnbtn" href="https://goo.gl/forms/DPTxGxoSzymPHRxo1" target="_blank">
-          <button class="button-register"><span>Register</span></button>
+	  <button class="button-register"><span>Register</span></button></a>
 </p>
 </div>
 
@@ -149,20 +149,20 @@ The Spring 2018 PND will be held on Februrary 6th at the Statler Hotel's Grand B
           time job.
           </p>
           <p>
-          <!-- <b>Tickets can be purchased via our online form below which is now open.</b> The event is open to all undergraduate and graduate 
+          <b>Tickets can be purchased via our online form below, which is now open.</b> The event is open to all undergraduate and graduate 
           students in the engineering, CS, and related fields. Make sure to buy your ticket early; 
-          space is limited and historically the event has sold out.   -->
+          space is limited and the event historically has sold out.
 
           Students attending can choose to include their resume in the SWE resume book by sending it in to <a href="mailto:cornellswe.pnd@gmail.com" target="_blank"><u>cornellswe.pnd@gmail.com</u></a>.  This book will be shared with employers prior to the dinner.<br>
 
-          <b> We will update when the tickets go on sale. Please stay tuned. </b>
+          <!--<b> We will update when the tickets go on sale. Please stay tuned. </b>-->
           </p>
 
 
           <br><br>
 
-  <!--<center><a class="grnbtn" href="https://goo.gl/forms/3VwEZA5pUn1boBRq2" target="_blank">
-          <button class="button-register"><span>Waitlist</span></button>-->
+  <center><a class="grnbtn" href="https://creditcard.cbs.cornell.edu/Billing.aspx?eventid=42355A67-7C18-4084-8733-2CEA4F60C548" target="_blank">
+          <button class="button-register"><span>Register</span></button>
  </a>
 
 
