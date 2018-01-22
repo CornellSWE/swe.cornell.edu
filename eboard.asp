@@ -27,12 +27,12 @@
               <td style="font-weight:bold;">NetID</td>
             </tr>
             <tr>
-              <td>co-President (President)</td>
+              <td>Co-President (President)</td>
               <td>Katherine Tang</td>
               <td>kat86</td>
             </tr>
             <tr>
-              <td>co-President (Vice President)</td>
+              <td>Co-President (Vice President)</td>
               <td>Haley Antoine</td>
               <td>hla37</td>
             </tr>
