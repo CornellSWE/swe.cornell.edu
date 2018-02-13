@@ -151,6 +151,11 @@
               <td>Cindy Mosqueda</td>
               <td>cmm522</td>
             </tr>
+            <tr>
+              <td>Counselor</td>
+              <td>Andrea Ippolito</td>
+              <td>aki2</td>
+            </tr>
 
         </table>
 
