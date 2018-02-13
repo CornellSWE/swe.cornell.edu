@@ -46,8 +46,7 @@
         <a href="http://obryanlaw.net/" target="_blank"><img src="images/sponsor_logos/obryan.jpg" alt="O'Bryan Law" border="0" /></a><br/><br/>
         <a href="http://www.levineandsons.com/" target="_blank"><img src="images/sponsor_logos/levine.png" alt="Levine and Sons" border="0" /></a><br/><br/>
         <a href="http://www.shelving.com/" target="_blank"><img src="images/sponsor_logos/shelving.png" alt="Shelving.com" border="0" /></a><br/><br/>
-        <a href="https://www.slb.com/" target="_blank"><img src="images/sponsor_logos/schlumberger.png" alt="Schlumberger" border="0" width="40%" height="40%" /></a><br/><br/>
-
+        <a href="https://www.slb.com/" target="_blank"><img src="images/sponsor_logos/schlumberger.png" alt="Schlumberger" border="0" width="20%" height="20%" /></a><br/><br/>
         <a href="https://www.studypool.com/" target="_blank"><img src="images/sponsor_logos/studypool.png" alt="Studypool.com" border="0" style="width: 200px;"/></a><br/>
         <p style="width: 400px; text-align: left;">
         <a href="https://www.studypool.com/">Studypool</a> is an online marketplace that connects students with questions with tutors who can answer them. Using <a href="https://www.studypool.com/">Studypool</a> gives you access to thousands of verified tutors to help you with any question at any time.
