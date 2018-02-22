@@ -1,5 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
+  <head>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+  </head>
   <!--#include file="head.inc"-->
   <body>
     <!--#include file="top-bar.inc"-->
