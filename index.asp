@@ -3,9 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css" />
   </head>
-  <!--#include file="head.inc"-->
   <body>
-    <!--#include file="top-bar.inc"-->
+    <p><!--#include file="head.inc"--></p>
+    <p><!--#include file="top-bar.inc"--></p>
     <div id="hero">
       
       <div class="progress-bar"></div>
