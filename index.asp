@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/app.css" />
   </head>
   <!--#include file="head.inc"-->
   <body>
@@ -81,7 +81,7 @@ Each year, we run numerous programs and events to promote engineering, diversity
           Our Mission
           </h5>
           <p>
-           The Cornell Student Section of the Society of Women Engineers promotes women in Engineering by advocating the importance of diversity and by uniting resources to encourage academic, leadership, professional, and personal excellence for the entire Engineering community of Today and Tomorrow.
+           The Cornell Student Section of the Society of Women Engineers promotes women in Engineering by advocating the importance of diversity and by uniting resources to encourage academic, leadership, professional, and personal excellence for the entire Engineering community of today and tomorrow.
           </p>
         </div>
     </div>
