@@ -5,7 +5,7 @@
     <link rel="icon" 
       type="image/ico" 
       href="SWEicon.ico">
-    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/app.css" />
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
