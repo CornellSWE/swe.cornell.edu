@@ -1,6 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <!--#include file="head.inc"-->
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/app.css" />
+  </head>
   <style>
   .button-register{
     text-align: center;
