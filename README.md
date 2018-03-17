@@ -21,56 +21,54 @@ Future Changes
 - Delete out unecessary comments
   - Make a document holding all text (i.e. text when form is open, when waitlist is open, when registration is closed)
 - Change forms to Google Form links, and make it private to SWE email
-- Change following pages:
-  About
-    Executive Board: 
-      - Make it more personal with photos
-    Directorship: 
-      - Move/delete photos
-      - Standardize lengths of descriptions
-    Awards: 
-      - Redesign
-    Graduate Student Programs:
-      - Fix the indent
-      - Place into “Members”?
 
-    Conference
+Overall Website Changes:
+- About
+  - Executive Board: 
+    - Make it more personal with photos
+  - Directorship: 
+    - Move/delete photos
+    - Standardize lengths of descriptions
+  - Awards: 
+    - Redesign
+  - Graduate Student Programs:
+    - Fix the indent
+    - Place into “Members”?
+- Events
+  - Outreach:
+    - Update
+    - Take out the position descriptions
+  - Networking Dinner
+    - Fix bottom bar
+  - Student-Faculty Dinner
+    - Keep faculty names, delete course titles, add departments
+  - Conference
     - Go into events
     - Needs some form of description/links to more info
-  Events
-    Outreach:
-      - Update
-      - Take out the position descriptions
-    Networking Dinner
-      - Fix bottom bar
-    Student-Faculty Dinner
-      - Keep faculty names, delete course titles, add departments
+- Corporate
+  - Support Us
+    - Make tab of “contribute/take part in Cornell SWE events” or something of the like
+    - List events that employers can attend
+    - Include the sponsor us section and combine it with the events they can host
+  - Host an Information Session
+    - Replace google form with something like the one in the sponsor us page
+    - Reorder sections
+    - Delete brochure link (no page found)
+    - Change layout of “Links” section
+  - Our Sponsors
+    - All should be the same size
+    - Don’t make it a list - make a chart instead
+- Members
+  - Get Involved
+    - Flesh it out
+  - Scholarship
+    - Take away the bullet point
+    - Make the logo smaller
+    - Include a description
+  - G-body Meetings
+    - Add that they occur on 1st Monday of every month
 
-  Corporate
-    Support Us
-      - Make tab of “contribute/take part in Cornell SWE events” or something of the like
-      - List events that employers can attend
-      - Include the sponsor us section and combine it with the events they can host
-    Host an Information Session
-      - Replace google form with something like the one in the sponsor us page
-      - Reorder sections
-      - Delete brochure link (no page found)
-      - Change layout of “Links” section
-    Our Sponsors
-      - All should be the same size
-      - Don’t make it a list - make a chart instead
-
-  Members
-    Get Involved
-      - Flesh it out
-    Scholarship
-      - Take away the bullet point
-      - Make the logo smaller
-      - Include a description
-    G-body Meetings
-      - Add that they occur on 1st Monday of every month
-
-  Aesthetics:
-  - Make purple color palette
-  - Title bar for individual pages - reduce width or just delete
-  - Reduce the width of the top bar of tabs
+Aesthetics:
+- Make purple color palette
+- Title bar for individual pages - reduce width or just delete
+- Reduce the width of the top bar of tabs
