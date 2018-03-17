@@ -18,7 +18,7 @@ Broken links:
 
 Future Changes
 - Find include solution for top-bar and footer
-- Delete out unecessary comments
+- Clean up the code, fix indents, delete out comments
   - Make a document holding all text (i.e. text when form is open, when waitlist is open, when registration is closed)
 - Change forms to Google Form links, and make it private to SWE email
 
