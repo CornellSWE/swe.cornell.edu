@@ -31,10 +31,10 @@ h1.bordered {
 /* line 72, ../scss/app.scss */
 .top-bar .button {
   margin-top: 20px;
-  border-color: #49b571 !important;
-  background-color: #49b571 !important;
+  border-color: #49b571 !important; /*GREEN*/
+  background-color: #49b571 !important; /*GREEN*/
   padding: 6px 10px !important;
-  box-shadow: 0 2px 1px #3a915a;
+  box-shadow: 0 2px 1px #3a915a; /*GREEN*/
 }
 
 /* line 82, ../scss/app.scss */
@@ -107,17 +107,17 @@ h1.bordered {
 /* line 139, ../scss/app.scss */
 .button.green {
   color: #49b571 !important;
-  border: 2px solid #49b571 !important;
+  border: 2px solid #49b571 !important; /*GREEN*/
 }
 /* line 140, ../scss/app.scss */
 .button.green:hover {
-  color: #49b571 !important;
+  color: #49b571 !important; /*GREEN*/
 }
 
 /* line 152, ../scss/app.scss */
 .highlight {
   background-image: none !important;
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
 }
 /* line 155, ../scss/app.scss */
 .highlight h1, .highlight h3 {
@@ -136,7 +136,7 @@ h1.bordered {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
   opacity: 0;
   text-align: center;
   padding: 40px 0;
@@ -177,14 +177,14 @@ h1.bordered {
 /* line 206, ../scss/app.scss */
 #triangle {
   fill: #fff;
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
   display: block;
   margin-top: -20px;
 }
 
 /* line 213, ../scss/app.scss */
 .bar {
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
   width: 40px;
   height: 3px;
   margin: -30px 0 50px 0;
@@ -225,7 +225,7 @@ h1.bordered {
 
 /* line 256, ../scss/app.scss */
 #mini-hero {
-  background-color: #49b571 !important;
+  background-color: #49b571 !important; /*GREEN*/
   padding: 60px 0;
 }
 /* line 258, ../scss/app.scss */
@@ -236,7 +236,7 @@ h1.bordered {
 /* line 264, ../scss/app.scss */
 .hero-bottom {
   padding: 30px 0;
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
 }
 /* line 268, ../scss/app.scss */
 .hero-bottom p {
@@ -250,7 +250,7 @@ h1.bordered {
   width: 0;
   height: 0;
   border: solid 50px;
-  border-color: #49b571 transparent transparent transparent;
+  border-color: #49b571 transparent transparent transparent; /*GREEN*/
   margin: -30px 0 0 -50px;
   left: 50%;
   position: absolute;
@@ -300,7 +300,7 @@ h1.bordered {
 }
 /* line 324, ../scss/app.scss */
 .hero-text .green {
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
 }
 /* line 328, ../scss/app.scss */
 .hero-text h3 {
@@ -344,7 +344,7 @@ div.orbit-container img {
 hr {
   padding: 0;
   border: none !important;
-  color: #49b571;
+  color: #49b571; /*GREEN*/
   background-color: #ededed;
   text-align: center;
   height: 16px !important;
@@ -398,7 +398,7 @@ hr {
 .progress-bar-wrapper {
   width: 100%;
   height: 4px;
-  background-color: #49b571;
+  background-color: #49b571; /*GREEN*/
   z-index: 12;
   position: absolute;
   top: 0;
@@ -418,7 +418,7 @@ hr {
 .photo-tag {
   width: 100%;
   padding: 8px;
-  background-color: #f4f4f8;
+  background-color: #f4f4f8; 
 }
 /* line 452, ../scss/app.scss */
 .photo-tag h6 {
@@ -475,7 +475,7 @@ body {
 /* line 331, ../bower_components/foundation/scss/foundation/components/_global.scss */
 body {
   background: white;
-  color: #222222;
+  color: F222222;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2090,8 +2090,8 @@ select {
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
-  background-color: #008cba;
-  border-color: #0078a0;
+  background-color: #008cba; /*BLUE*/
+  border-color: #0078a0; /*BLUE*/
   color: white;
 }
 /* line 105, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -2122,14 +2122,14 @@ select {
 }
 /* line 110, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.success {
-  background-color: #43ac6a;
-  border-color: #3a945b;
+  background-color: #43ac6a; /*GREEN*/
+  border-color: #3a945b; /*GREEN*/
   color: white;
 }
 /* line 111, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.alert {
-  background-color: #f04124;
-  border-color: #de2d0f;
+  background-color: #f04124; /*RED*/
+  border-color: #de2d0f; /*RED*/
   color: white;
 }
 /* line 112, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -2140,14 +2140,14 @@ select {
 }
 /* line 113, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.warning {
-  background-color: #f08a24;
-  border-color: #de770f;
+  background-color: #f08a24; /*ORANGE*/
+  border-color: #de770f; /*ORANGE*/
   color: white;
 }
 /* line 114, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.info {
-  background-color: #a0d3e8;
-  border-color: #74bfdd;
+  background-color: #a0d3e8; /*BLUE*/
+  border-color: #74bfdd; /*BLUE*/ 
   color: #4f4f4f;
 }
 
