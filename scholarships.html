@@ -2,11 +2,13 @@
 <html class="no-js" lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
-  <!--#include file="head.inc"-->
   <body>
-    <!--#include file="top-bar.inc"-->
-        <!-- top-bar.inc starts here -->
+	<div id="top-bar"></div>
+    	<script>
+    	$("#top-bar").load("top-bar.html");
+    	</script>
 <div class="header">
       <div class="row text-right">
         <div class="large-8 columns">
@@ -137,7 +139,10 @@
     </div>
   </div>
 
-    <!--#include file="footer.inc"-->
+    <div id="footer"></div>
+       <script>
+       $("#footer").load("footer.html");
+       </script>
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/foundation/js/foundation.js"></script>
     <script src="js/app.js"></script>
