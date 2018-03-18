@@ -2,8 +2,15 @@
 <html class="no-js" lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
-
+	
+<body>
+	<div id="top-bar"></div>
+	<script>
+	$("#top-bar").load("top-bar.html");
+	</script>
+	
 <!-- #include file="navmain.inc" -->
 
 		<h2>Thank You!</h2>
@@ -15,3 +22,9 @@ Thank you for completing the payment for your company information session at Cor
 	</div> 
 
 <!-- #include file="footer.inc" -->
+	
+       <div id="footer"></div>
+       <script>
+       $("#footer").load("footer.html");
+       </script>
+</body>
