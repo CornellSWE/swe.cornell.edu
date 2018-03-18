@@ -2,7 +2,13 @@
 <html class="no-js" lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
+  <body>
+       <div id="top-bar"></div>
+       <script>
+       $("#top-bar").load("top-bar.html");
+       </script>
 <!-- #include file="navmain.inc" -->	
 	  <h1>Finance Protocol</h1>
         <p>All transactions (revenue + expenditure) should be recorded on the SWE Finance Form.</p>
@@ -35,3 +41,9 @@
 	</div> 
 
 <!-- #include file="footer.inc" -->
+
+       <div id="footer"></div>
+       <script>
+       $("#footer").load("footer.html");
+       </script>
+</body>
