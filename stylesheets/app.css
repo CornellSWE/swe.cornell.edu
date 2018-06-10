@@ -5051,7 +5051,7 @@ ul.pagination li {
 /* line 53, ../bower_components/foundation/scss/foundation/components/_progress-bars.scss */
 .progress {
   background-color: #f6f6f6;
-  height: 1.5625rem;
+  height: 600px;
   border: 1px solid white;
   padding: 0.125rem;
   margin-bottom: 0.625rem;
