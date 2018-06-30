@@ -5660,7 +5660,7 @@ div.switch.round label {
 
 /* line 89, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table {
-  background: white;
+  background: #ede7f6;
   margin-bottom: 1.25rem;
   border: solid 0 #dddddd;
 }
@@ -5689,7 +5689,7 @@ table tr td {
 }
 /* line 76, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: #f9f9f9;
+  background: #d6c6ff;
 }
 /* line 83, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
