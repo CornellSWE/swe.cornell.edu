@@ -4897,7 +4897,7 @@ ul.pagination li.current a {
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li.current a:hover, ul.pagination li.current a:focus {
-  background: #008cba;
+  background: #6B41D8;
 }
 /* line 119, ../bower_components/foundation/scss/foundation/components/_pagination.scss */
 ul.pagination li {
@@ -5402,7 +5402,7 @@ ul.pagination li {
 .sub-nav dt a:hover,
 .sub-nav dd a:hover,
 .sub-nav li a:hover {
-  color: #0085b1;
+  color: #6B41D8;
 }
 /* line 87, ../bower_components/foundation/scss/foundation/components/_sub-nav.scss */
 .sub-nav dt.active a,
@@ -5835,8 +5835,8 @@ table tfoot tr td {
 }
 /* line 50, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
-  box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5);
+  -webkit-box-shadow: 0 0 6px 1px rgba(107, 65, 216, 0.5);
+  box-shadow: 0 0 6px 1px rgba(107, 65, 216, 0.5);
 }
 /* line 67, ../bower_components/foundation/scss/foundation/components/_thumbs.scss */
 .th.radius {
@@ -5854,8 +5854,8 @@ table tfoot tr td {
 }
 /* line 39, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip:hover, .has-tip:focus {
-  border-bottom: dotted 1px #003f54;
-  color: #008cba;
+  border-bottom: dotted 1px #8763E5;
+  color: #6B41D8;
 }
 /* line 45, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .has-tip.tip-left, .has-tip.tip-right {
@@ -6486,7 +6486,7 @@ a {
 }
 /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #49b571;
+  color: #997CE4;
 }
 /* line 159, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
