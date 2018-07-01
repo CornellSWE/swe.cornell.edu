@@ -5411,7 +5411,7 @@ ul.pagination li {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   font-weight: normal;
-  background: #008cba;
+  background: #997CE4;
   padding: 0.1875rem 1rem;
   cursor: default;
   color: white;
@@ -5420,7 +5420,7 @@ ul.pagination li {
 .sub-nav dt.active a:hover,
 .sub-nav dd.active a:hover,
 .sub-nav li.active a:hover {
-  background: #0085b1;
+  background: #997CE4;
 }
 
 /* line 289, ../bower_components/foundation/scss/foundation/components/_switch.scss */
@@ -6188,12 +6188,12 @@ meta.foundation-mq-topbar {
 }
 /* line 333, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
-  background: #008cba;
+  background: #997CE4;
   color: white;
 }
 /* line 336, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
-  background: #0078a0;
+  background: #997CE4;
 }
 /* line 343, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
@@ -6444,7 +6444,7 @@ meta.foundation-mq-topbar {
   }
   /* line 588, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: #997CE4;
     color: white;
   }
   /* line 596, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
