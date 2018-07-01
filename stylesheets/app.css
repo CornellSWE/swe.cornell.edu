@@ -6148,14 +6148,14 @@ meta.foundation-mq-topbar {
 }
 /* line 295, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
-  background: #008cba;
+  background: #997CE4;
   font-size: 0.875rem;
   padding-right: 30px;
   padding-left: 30px;
 }
 /* line 300, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button:hover {
-  background: #006688;
+  background: #8763E5;
 }
 /* line 304, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button.secondary {
