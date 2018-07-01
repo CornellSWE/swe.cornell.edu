@@ -31,10 +31,10 @@ h1.bordered {
 /* line 72, ../scss/app.scss */
 .top-bar .button {
   margin-top: 20px;
-  border-color: #49b571 !important; /*GREEN*/
-  background-color: #49b571 !important; /*GREEN*/
+  border-color: #d6c6ff !important;
+  background-color: #d6c6ff !important;
   padding: 6px 10px !important;
-  box-shadow: 0 2px 1px #3a915a; /*GREEN*/
+  box-shadow: 0 2px 1px #ede7f6;
 }
 
 /* line 82, ../scss/app.scss */
