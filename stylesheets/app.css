@@ -225,7 +225,7 @@ h1.bordered {
 
 /* line 256, ../scss/app.scss */
 #mini-hero {
-  background-color: #49b571 !important; /*GREEN*/
+  background-color: #997CE4 !important;
   padding: 60px 0;
 }
 /* line 258, ../scss/app.scss */
@@ -2122,8 +2122,8 @@ select {
 }
 /* line 110, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box.success {
-  background-color: #43ac6a; /*GREEN*/
-  border-color: #3a945b; /*GREEN*/
+  background-color: #997CE4;
+  border-color: #997CE4;
   color: white;
 }
 /* line 111, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -2847,13 +2847,13 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 }
 /* line 208, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success, .button.success {
-  background-color: #43ac6a;
-  border-color: #368a55;
+  background-color: #997CE4;
+  border-color: #997CE4;
   color: white !important;
 }
 /* line 144, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: #368a55;
+  background-color: #997CE4;
 }
 /* line 155, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
