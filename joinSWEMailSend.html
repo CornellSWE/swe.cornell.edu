@@ -11,7 +11,7 @@ email = Request.Form("email")
 Dim validationOK
 validationOK=true
 If (Trim(email)="") Then validationOK=false
-If (validationOK=false) Then Response.Redirect("send_error.asp")
+If (validationOK=false) Then Response.Redirect("send_error.html")
 ' send email 
 Dim mail
 Set mail = Server.CreateObject("CDO.Message") 
@@ -26,5 +26,5 @@ mail.Configuration.Fields.Update()
 mail.Send
 Set mail= nothing
 ' redirect to success page 
-Response.Redirect("send_join_ok.asp")
+Response.Redirect("send_join_ok.html")
 %>
