@@ -18,6 +18,7 @@ Broken links:
 
 2018-2019 Progress:
 - Changed to purple color palette
+- Updated hyperlinks, text, pics (as per eboard's requested changes)
 
 Future Changes
 - Find include solution for top-bar and footer
