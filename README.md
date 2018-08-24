@@ -16,6 +16,9 @@ Broken links:
   - Stylesheet references updated
 - Directory updated
 
+2018-2019 Progress:
+- Changed to purple color palette
+
 Future Changes
 - Find include solution for top-bar and footer
 - Clean up the code, fix indents, delete out comments
@@ -69,6 +72,5 @@ Overall Website Changes:
     - Add that they occur on 1st Monday of every month
 
 Aesthetics:
-- Make purple color palette
 - Title bar for individual pages - reduce width or just delete
 - Reduce the width of the top bar of tabs
