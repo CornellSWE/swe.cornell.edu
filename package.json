@@ -1,0 +1,39 @@
+{
+  "name": "swe.cornell.edu",
+  "version": "1.0.0",
+  "description": "Broken links: - gsend-join-ok - joinSWEGMailSend - joinSWEMailSend - send-error - send-ok - supportMailSend (make new links, these are mostly links you get sent to when completing a form)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CornellSWE/swe.cornell.edu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CornellSWE/swe.cornell.edu/issues"
+  },
+  "homepage": "https://github.com/CornellSWE/swe.cornell.edu#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
