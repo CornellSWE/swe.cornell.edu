@@ -1,159 +1,171 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <title>Professional Networking Dinner</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  </head>
-  <body>
-	<div id="top-bar"></div>
-    	<script>
-    	$("#top-bar").load("top-bar.html");
-    	</script>
-	  
+
+<head>
+  <title>Professional Networking Dinner</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+  <div id="top-bar"></div>
+  <script>
+    $("#top-bar").load("top-bar.html");
+  </script>
+
   <style>
-  .button-register{
-    text-align: center;
-    cursor: pointer;
-    font-size:24px;
-    margin: 0 0 0 100px;
-    text-transform: capitalize;
-  }
+    .button-register {
+      text-align: center;
+      cursor: pointer;
+      font-size: 20px;
+      text-transform: capitalize;
+    }
 
-  .button-register {
-  border-radius: 4px;
-  background-color:#997CE4;
-  border: none;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-}
+    .button-register {
+      border-radius: 4px;
+      background-color: #997CE4;
+      border: none;
+      padding: 18px;
+      width: 180px;
+      transition: all 0.5s;
+    }
 
+    .button-ticket {
+      width: 230px;
+      margin: 10px;
+    }
 
-.button-register span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
+    .button-register span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
 
-.button-register span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+    .button-register span:after {
+      content: '»';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
 
-.button-register:hover span {
-  padding-right: 25px;
-}
+    .button-register:hover span {
+      padding-right: 25px;
+    }
 
-.button-register:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
+    .button-register:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
   </style>
 
-    <div id="mini-hero">
-      <div class="row">
-        <div class="12-small columns">
-          <h1>
-            The Professional Networking Dinner
-          </h1>
-<!--           <a id="view-gallery" class="button">
+  <div id="mini-hero">
+    <div class="row">
+      <div class="12-small columns">
+        <h1>
+          The Professional Networking Dinner
+        </h1>
+        <!--           <a id="view-gallery" class="button">
             View Gallery
           </a> -->
-        </div>
       </div>
     </div>
-	  
-    <div class="arrow"></div>
-	  
-    <div class="wrapper">
+  </div>
+
+  <div class="arrow"></div>
+
+  <div class="wrapper">
     <div class="row">
       <div class="large-12 columns">
-	      
+
         <p>
           The Cornell University Society of Women Engineers proudly presents our semiannual
-	Professional Networking Dinner in the Statler Ballroom.  
-	Held the evening before Cornell's technical career fair, 
-	the Professional Networking Dinner enables company representatives and students to 
-	interact in an intimate yet relaxed environment.  This allows representatives to share 
-	personal and business experiences while seeing first-hand just what Cornell has to 
-	offer.  Students have the opportunity to speak to representatives for an extended period 
-	of time and to learn more about the workplace environment of many top engineering 
-	companies. We cordially invite you to join us for this unique networking opportunity.
-        <br /><br />
-	Spring 2020 company registration is now open!
+          Professional Networking Dinner in the Statler Ballroom.
+          Held the evening before Cornell's technical career fair,
+          the Professional Networking Dinner enables company representatives and students to
+          interact in an intimate yet relaxed environment. This allows representatives to share
+          personal and business experiences while seeing first-hand just what Cornell has to
+          offer. Students have the opportunity to speak to representatives for an extended period
+          of time and to learn more about the workplace environment of many top engineering
+          companies. We cordially invite you to join us for this unique networking opportunity.
+          <br /><br />
+          Spring 2020 company registration is now open!
         </p>
-	      
+        <center><a class="grnbtn"
+            href="https://creditcard.cbs.cornell.edu/Billing.aspx?eventid=87E8DE04-49B3-4B0B-BB19-08E1B062078F"
+            target="_blank">
+            <button class="button-register button-ticket"><span>Purchase Ticket</span></button></a>
+
       </div>
     </div>
   </div>
   <div class="full-width">
-      <ul class="large-block-grid-3">
-	   <li><img src="images/pnd_im1.jpg" style="width:500px;height:300px;"></li>
-      	   <li><img src="images/pnd_im2.jpg" style="width:500px;height:300px;"></li>
-	   <li><img src="images/pnd_im3.jpg" style="width:500px;height:300px;"></li>      
-	</ul>
+    <ul class="large-block-grid-3">
+      <li><img src="images/pnd_im1.jpg" style="width:500px;height:300px;"></li>
+      <li><img src="images/pnd_im2.jpg" style="width:500px;height:300px;"></li>
+      <li><img src="images/pnd_im3.jpg" style="width:500px;height:300px;"></li>
+    </ul>
   </div>
 
-    <div class="wrapper gray">
+  <div class="wrapper gray">
     <div class="row">
       <div class="large-12 columns">
-    <h4>Company Representatives</h4>
+        <h4>Company Representatives</h4>
         <p>
-	  	The event will cost $200.00 for the first company representative and $180.00 for each 
-		additional representative. Please note that each company is limited to a maximum of 4 
-		company representatives. Companies may also choose to purchase an advertisement 
-		to be included in the program. Half page ads (5"x4") cost $50 and full page ads (5"x 
-		8") cost $70. Dinner and four networking rotations will allow you to meet a wide variety 
-		of students in a casual and friendly atmosphere. Representatives are invited to stay 
-		an additional half hour, until 10:00pm, for further networking. This is a wonderful 
-		opportunity to get to know potential full-time and internship applicants prior to the career 
-		fair.
-  
-  		<br /><br />
-  		Company registration is currently open, please register with the form below. Any company with questions regarding the event may direct their inquiries to <a href="mailto:cornellswe.pnd@gmail.com" target="_blank"><u>cornellswe.pnd@gmail.com</u></a>.
+          The event will cost $200.00 for the first company representative and $180.00 for each
+          additional representative. Please note that each company is limited to a maximum of 4
+          company representatives. Companies may also choose to purchase an advertisement
+          to be included in the program. Half page ads (5"x4") cost $50 and full page ads (5"x
+          8") cost $70. Dinner and four networking rotations will allow you to meet a wide variety
+          of students in a casual and friendly atmosphere. Representatives are invited to stay
+          an additional half hour, until 10:00pm, for further networking. This is a wonderful
+          opportunity to get to know potential full-time and internship applicants prior to the career
+          fair.
 
-  		<!--  Company registration is currently closed.  Any company with questions regarding the event may direct their inquiries to <a href="mailto:cornellswe.pnd@gmail.com" target="_blank"><u>cornellswe.pnd@gmail.com</u></a>  -->
-  		<br />
-		<center><a class="grnbtn" href="https://docs.google.com/forms/d/e/1FAIpQLSe-VcHlXTFWHV0vhOYs3nx5-I9caBJWUbsj9LEPZH05MeRC0A/viewform" target="_blank">
-		<button class="button-register"><span>Register</span></button></a>
-	</p> 
-</div>
-</div>
-</div>
+          <br /><br />
+          Company registration is currently open, please register with the form below. Any company with questions
+          regarding the event may direct their inquiries to <a href="mailto:cornellswe.pnd@gmail.com"
+            target="_blank"><u>cornellswe.pnd@gmail.com</u></a>.
+
+          <!--  Company registration is currently closed.  Any company with questions regarding the event may direct their inquiries to <a href="mailto:cornellswe.pnd@gmail.com" target="_blank"><u>cornellswe.pnd@gmail.com</u></a>  -->
+          <br />
+          <center><a class="grnbtn"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe-VcHlXTFWHV0vhOYs3nx5-I9caBJWUbsj9LEPZH05MeRC0A/viewform"
+              target="_blank">
+              <button class="button-register"><span>Register</span></button></a>
+        </p>
+      </div>
+    </div>
+  </div>
 
 
-    <div class="wrapper">
+  <div class="wrapper">
     <div class="row">
       <div class="large-12 columns">
         <h4>Students</h4>
         <p>
           Tickets are $15 and may be purchased online with a credit card. The dinner consists of
-          a four course meal catered by The Statler, with four rotations, during which you will be 
-          able to network with different companies in a relaxed environment. Additionally, there 
-          will be a short networking session prior to the start of the official rotations, and a thirty 
-          minute networking session at the end of the night so that you will have the opportunity 
-          to speak to any representatives that you may have missed, or would like to talk to again. 
-          This is a great way to meet company reps and find a summer internship, co-op, or full 
+          a four course meal catered by The Statler, with four rotations, during which you will be
+          able to network with different companies in a relaxed environment. Additionally, there
+          will be a short networking session prior to the start of the official rotations, and a thirty
+          minute networking session at the end of the night so that you will have the opportunity
+          to speak to any representatives that you may have missed, or would like to talk to again.
+          This is a great way to meet company reps and find a summer internship, co-op, or full
           time job.
-	  <br><br>
-	  Please check back in Spring 2020 for more information on Student Registration.<br />
-	  <!--The Fall 2019 Professional Networking Dinner has sold out and registration is now closed. 
+          <br><br>
+          Please check back in Spring 2020 for more information on Student Registration.<br />
+          <!--The Fall 2019 Professional Networking Dinner has sold out and registration is now closed. 
 		Please stay tuned for details on the next dinner to be held in Spring 2020.<br/> -->
-	<!--  Tickets can be purchased via the link below.</b> The event is open to all undergraduate and graduate 
+          <!--  Tickets can be purchased via the link below.</b> The event is open to all undergraduate and graduate 
           students in the engineering, CS, and related fields. Make sure to buy your ticket early; 
           space is limited and the event historically has sold out.<br />
   		<center><a class="grnbtn" href="https://creditcard.cbs.cornell.edu/Billing.aspx?eventid=EBEBE6FF-123D-46C0-B9EC-4EFD1BABBF4F" target="_blank">
-	<button class="button-register"><span>Register</span></button></a> -->	
-	</p>
-		  
-          <!-- <p>
+	<button class="button-register"><span>Register</span></button></a> -->
+        </p>
+
+        <!-- <p>
           Students attending can choose to include their resume in the SWE resume book by sending it in to <a href="mailto:cornellswe.pnd@gmail.com" target="_blank"><u>cornellswe.pnd@gmail.com</u></a>.  This book will be shared with employers prior to the dinner.<br>
 
           <b> We will update when the tickets go on sale. Please stay tuned. </b>
@@ -161,14 +173,14 @@
 
 
           -->
-          <div>
-<!--   <p>
+        <div>
+          <!--   <p>
   <center><b>See below for a list of companies that will be in attendance this Spring.</b>
   </p> -->
-</div>
+        </div>
 
 
-<!-- <table>
+        <!-- <table>
   <tr>
     <td>Amazon</td>
     <td>American Express</td> 
@@ -204,89 +216,93 @@
         </p>
       </div>
     </div>
-    </div>
-      <div class="full-width">
-      <ul class="large-block-grid-3">
-        <!--<li><img src="Users/Desktop/SWEpic.png" style="width:500px;height:335px;" alt="PND 2014"></li>-->
-        <li><img src="/images/IMG_0557.jpg" style="width:500px;height:300px;" alt="PND 2014"></li>
-        <li><img src="/images/IMG_0547.jpg" style="width:500px;height:300px;" alt="PND 2014"></li>
-        <li><img src="/images/IMG_0560.jpg" style="width:500px;height:300px;" alt="PND 2014"></li>
-      </ul>
   </div>
-      <div class="wrapper gray">
+  <div class="full-width">
+    <ul class="large-block-grid-3">
+      <!--<li><img src="Users/Desktop/SWEpic.png" style="width:500px;height:335px;" alt="PND 2014"></li>-->
+      <li><img src="/images/IMG_0557.jpg" style="width:500px;height:300px;" alt="PND 2014"></li>
+      <li><img src="/images/IMG_0547.jpg" style="width:500px;height:300px;" alt="PND 2014"></li>
+      <li><img src="/images/IMG_0560.jpg" style="width:500px;height:300px;" alt="PND 2014"></li>
+    </ul>
+  </div>
+  <div class="wrapper gray">
     <div class="row">
       <div class="large-12 columns">
         <h4>Comments from Students and Representatives from past dinners:</h4>
         <p><b>
-          Representatives say… </b>
+            Representatives say… </b>
         </p>
         <p>“I enjoyed the opportunity to meet students looking for a job.” </p>
 
-<p>“[I liked] Meeting a variety of students.”</p>
+        <p>“[I liked] Meeting a variety of students.”</p>
 
-<p>“[Great] Opportunity for encouraging brand recognition.” </p>
+        <p>“[Great] Opportunity for encouraging brand recognition.” </p>
 
-<p align="right"><b>Students say…</b></p>
-<p align="right">“Having more time to talk to the representative around <br> a table with other students take[s] away some of the pressure<br> …and gave me more confidence in joining in the conversation.”</p>
+        <p align="right"><b>Students say…</b></p>
+        <p align="right">“Having more time to talk to the representative around <br> a table with other students take[s]
+          away some of the pressure<br> …and gave me more confidence in joining in the conversation.”</p>
 
-<p align="right">“[There was] lots of time to talk to reps in small group setting.”</p>
+        <p align="right">“[There was] lots of time to talk to reps in small group setting.”</p>
 
-<p align="right">"[I] got some really good insight into the companies' cultures.”</p>
+        <p align="right">"[I] got some really good insight into the companies' cultures.”</p>
 
       </div>
     </div>
-    </div>
-          <div class="wrapper">
+  </div>
+  <div class="wrapper">
     <div class="row">
       <div class="large-12 columns">
-        <p>If you have any questions regarding the event, please feel free to contact the SWE Career Development Co-Directors, Rema Toopal and Caroline Hanson at cornellswe.pnd@gmail.com. We look forward to seeing you at the event! 
+        <p>If you have any questions regarding the event, please feel free to contact the SWE Career Development
+          Co-Directors, Rema Toopal and Caroline Hanson at cornellswe.pnd@gmail.com. We look forward to seeing you at
+          the event!
         </p>
 
-<!--
+        <!--
 <p>
 Registration for the Spring 2014 dinner will be available soon.</p>
 -->
-<p>
-        <table align="center">
+        <p>
+          <table align="center">
 
             <tr>
 
-                <td width="220px">Rema Toopal</td>
+              <td width="220px">Rema Toopal</td>
 
-                <td width="220px">Caroline Hanson</td>
+              <td width="220px">Caroline Hanson</td>
 
             </tr>
 
             <tr>
 
-                <td>Career Development Co-Director</td>
+              <td>Career Development Co-Director</td>
 
-                <td>Career Development Co-Director</td>
+              <td>Career Development Co-Director</td>
 
             </tr>
 
             <tr>
 
-                <td><a href="mailto:rmt233@cornell.edu" target="_blank"><u>rmt233@cornell.edu</u></a></td>
+              <td><a href="mailto:rmt233@cornell.edu" target="_blank"><u>rmt233@cornell.edu</u></a></td>
 
-                <td><a href="mailto:cgh64@cornell.edu" target="_blank"><u>cgh64@cornell.edu</u></a></td>
+              <td><a href="mailto:cgh64@cornell.edu" target="_blank"><u>cgh64@cornell.edu</u></a></td>
 
             </tr>
 
-        </table>
+          </table>
 
-</p>
-        <center> 
+        </p>
+        <center>
       </div>
     </div>
-    </div>
-	  
-    <div id="footer"></div>
-       <script>
-       $("#footer").load("footer.html");
-       </script>
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/foundation/js/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  </div>
+
+  <div id="footer"></div>
+  <script>
+    $("#footer").load("footer.html");
+  </script>
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
