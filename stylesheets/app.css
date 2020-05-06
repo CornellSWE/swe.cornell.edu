@@ -160,7 +160,7 @@ h1.bordered {
 
 /* line 192, ../scss/app.scss */
 .row h4 {
-  margin: 10px 0 40px 0 !important;
+  margin: 10px 0 10px 0 !important;
   text-transform: uppercase;
   color: #444444;
 }
