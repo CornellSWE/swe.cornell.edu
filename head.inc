@@ -10,4 +10,5 @@
     <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   </head>
