@@ -1,149 +1,473 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta name="google-site-verification" content="0xqyQkiIyPbRSjXU0FchMDvcuyWWJraWa3-TC-0bn1U" />
-    <title>Cornell SWE</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-  </head>
-  <body>
-	<div id="top-bar"></div>
-    	<script>
-    	$("#top-bar").load("top-bar.html");
-    	</script>
-	  
-    <div id="hero">
-      
-      <div class="progress-bar"></div>
-      <ul class="example-orbit" data-orbit data-options="animation:slide;
-                  pause_on_hover:true;
-                  animation_speed:500;
-                  slide_number:false;">
-        <li>
-          <img src="/images/homepage1.jpg" alt="slide 1" />
-        </li>
-        <li>
-          <img src="/images/homepage2.jpg" alt="slide 2" />
-        </li>
-        <li>
-          <img src="/images/homepage3.jpg" alt="slide 3" />
-        </li>
-        <li>
-          <img src="/images/homepage4.jpg" alt="slide 4" />
-        </li>
-  
-        <li>
-          <img src="/images/homepage5.jpg" alt="slide 5" />
-        </li>
-        <li>
-          <img src="images/homepage6.jpg" alt="slide 6" />
-        </li>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-      </ul>
-      <div class="row hero-text">
-        <div class="12-small columns">
+    </head>
+    <style>
+        * {
+  box-sizing: border-box;
+}
 
-          <!--<h1>
-            <span class="green">Society of</span>
-            <span class="green">Women</span>
-            <span class="green">Engineers</span> 
-            <span class="green">@ Cornell</span>
-          </h1> -->
-<!--           <a id="view-gallery" class="button">
-            View Gallery
-          </a> -->
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.nav {
+  height: 5.5vw;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  z-index: 999;
+  position: fixed;
+  border-bottom-style: outset;
+
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 0.5vw;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 1.4vw;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 1.9vw;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav > .nav-links > a:hover {
+  text-decoration: underline;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    text-decoration: underline;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+
+}
+        .homepgBG {
+            background-image: url(photos/homepageBG.jpg);
+            width: 100%;
+            height: 40vw;
+            opacity:0.85;
+            position: relative;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+
+        .homepgBG::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: rgba(90, 83, 119, 0.6);
+        }
+        .HomeTitle {
+            position: absolute;
+            margin-top: 17%;
+            margin-left: 27%;
+            color: white;
+            font-weight: 600;
+            font-size: 3.4vw;
+            letter-spacing: 0.9px;
+            text-align: center;
+            font-family: 'Open Sans';
+            }
+
+        .aboutHomepg{
+            width: 100%;
+            height:40vw;
+        }
+
+        .aboutText{
+            height: 20vw;
+            width:30%;
+            margin-top: 7%;
+            margin-left: 10%;
+        }
+
+        .wwaTitle{
+            font-size: 2.5vw;
+            font-family: 'Open Sans';
+            font-weight: 600;
+        }
+
+        .smallTitle{
+            font-family: 'Open Sans';
+
+        }
+
+        .aboutD{
+            margin-top: 2%;
+            font-family: 'Open Sans';
+        }
+
+        .aboutImage{
+            float: right;
+            width: 50%;
+            margin-left: 40%;
+        }
+
+        .grayDivider{
+            background-color: #A9A8A9;
+            width: 100%;
+            height: 15vw;
+            margin-top: -15vw;
+        }
+
+        .missionTextHeader{
+            color: white;
+            font-family: 'Open Sans';
+            font-size: 2.5vw;
+            font-weight: 600;
+            text-align: center;
+            padding-top: 2%;
+        }
+
+        .missionText{
+            color: white;
+            font-family: 'Open Sans';
+            font-size: 1.3vw;
+            text-align: center;
+            width: 80%;
+            margin-left: 10%;
+            padding-top: 2%;
+            line-height: 0.3vw;
+        }
+
+        .eventsContainer{
+            height: 45vw;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .eventTitle{
+            font-family: 'Open Sans';
+            font-size: 2vw;
+            padding-top: 5%;
+            font-weight: 600;
+        }
+
+        .img1{
+            width: 27%;
+            float: left;
+            margin-top: 2%;
+        }
+
+        .img2{
+            width: 25%;
+            float: right;
+            margin-top: 2%;
+        }
+        .img3{
+            width: 25%;
+            float: right;
+            margin-top: 2%;
+            transform: translate(-10vw, 0);
+        }
+        .captionTitle{
+            font-size: 1.2vw;
+            font-family: 'Open Sans';
+            font-weight: 700;
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+
+        .caption{
+            font-family: 'Open Sans';
+            font-size: 1vw;
+            margin-top: 2%;
+            margin-left: 3%;
+        }
+
+        .readMoreHome{
+            font-family: 'Open Sans';
+            font-size: 1vw;
+            margin-top: -3%;
+            margin-left: 10%;
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            }
+
+                
+        .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        }
+
+        .joinPurple{
+            background-color: rgba(90, 83, 119);
+            height: 20vw;
+            width:40%;
+            margin-top: 4%;
+            float:left;
+        }
+        .joinGray{
+            height: 20vw;
+            margin-top: 4%;
+            width: 60%;
+            float:right;
+            background-color:#e2e2e2;
+        }
+        .joinSmall{
+            color: white;
+            font-family: 'Open Sans';
+            font-size: 1.6vw;
+            margin-top: 20%;
+            margin-left:17%;
+        }
+
+        .joinBig{
+            color: white;
+            font-family: 'Open Sans';
+            font-size: 2.3vw;
+            margin-left:17%;
+            font-weight: 600;
+        }
+
+        .listservText{
+            font-family: 'Open Sans';
+            margin-top: 12%;
+            margin-left: 15%;
+            font-size: 1.3vw;;
+        }
+
+        .footer{
+            position: absolute;
+        }
+
+        .social-wrapper{
+            height: 10vw;
+            width: 100%;
+            background-color: #A9A8A9;
+            transform: translateY(30vw);
+        }
+        .dropbtn {
+  background-color: white;
+  color: black;
+  padding: 2vw;
+  font-size: 1.4vw;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  padding: 1.9vw;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1vw;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {text-decoration: underline;}
+    </style>
+    <body>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                <img src = "photos/swe_logo.png" style="height: 4vw;width: 7vw; margin-left: 1vw;">
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <div class="dropdown">
+                <button class="dropbtn">About Us</button>
+                <div class="dropdown-content">
+                  <a href="#">Directorships</a>
+                  <a href="#">Board Members</a>
+                  <a href="#">Awards</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Events</button>
+                <div class="dropdown-content">
+                  <a href="#">Calender</a>
+                  <a href="#">Event Highlights</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Corporate</button>
+                <div class="dropdown-content" style="min-width: 280px;">
+                  <a href="#">Host an Information Session</a>
+                  <a href="#">Professional Networking Dinner</a>
+                  <a href="#">Sponsor SWE</a>
+                </div>
+              </div>
+              <input type="submit" value="Join" style="height: 2.7vw;width: 6vw; margin-right: 2vw; margin-left: 1vw; text-align: center;font-size: 1.4vw; background-color: rgba(90, 83, 119); border: none; border-radius: 0.6vw; color: white;">
+            </div>
+          </div>
+
+        <div class = "homepgBG">
+            <div class = "HomeTitle">Society of Women Engineers <br> <div class = "smallerTitle" style="font-size: 2vw;">Aspiring. Advancing. Achieving.</div> </div>
         </div>
-      </div>
-<!--       <div class="text-center hero-overlay">
- -->
-        
-      </div>
-    </div>
 
-    <div class="hero-bottom text-center">
-    <div class="row">
-      <div class="large-12 columns">
-        <p>
-	  <font size="18">Society of Women Engineers @ Cornell</font><br>
-          Aspiring. Advancing. Achieving.
-        </p>
-      </div>
-    </div>
-    </div>
-    <div class="arrow"></div>
-    <div class="wrapper gray inset">
-      <div class="row">
-        <div class="large-12 columns">
-		
-          <h4>
-            About
-          </h4>
-          <p>
-            The Cornell Student Section of the Society of Women Engineers was charted on November 9, 1972. Since then, we have grown to be one of the largest student organizations on campus, with over 250 members. Membership for SWE is open to all (male and female) undergraduate and graduate students in engineering and technical fields.
+        <div class="aboutHomepg">
+            <div class = "aboutText">
+                <div class = "smallTitle">ABOUT US</div>
+                <div class = "wwaTitle">Who We Are</div>
+                <div class = "aboutD">The Cornell Student Section of the Society of Women Engineers is open to all (male and female) undergraduate and graduate
+                    students in engineering and technical fields. Each year, we run numero"us programs and events to promote engineering, diversity, career and 
+                    professional development, academic support, and pre-college education.
+                </div>
+                <div class = "aboutImage">
+                    <img src = "photos/homepage2.jpg" style="height: 20vw; width: 35vw; margin-left: 25vw; margin-top: -16vw;">
+                </div>
+            </div>
+        </div>
 
-Each year, we run numerous programs and events to promote engineering, diversity, career and professional development, academic support, and pre-college education. These include many outreach programs in and around the Ithaca community, various social programs, dinners, luncheons, and over 100 company information sessions.
-          </p>
-		
-	  <br>
-		
-          <h4>
-          Our Mission
-          </h4>
-          <p>
-           The Cornell Student Section of the Society of Women Engineers promotes women in Engineering by advocating the importance of diversity and by uniting resources to encourage academic, leadership, professional, and personal excellence for the entire Engineering community of Today and Tomorrow.
-          </p>
-		
+        <div class = "grayDivider">
+            <div class = "missionTextHeader"> Our Mission </div>
+            <div class = "missionText">We promote women in engineering by advocating the importance of diversity and by uniting resources to <p style="color: #e7d992;"> encourage academic, leadership, 
+                profession, and personal excellence </p> for the entire engineering community of today and tomorrow
+            </div>
+        </div>
+        <div class = "eventsContainer">
+            <div class = "eventTitle">Event Highlights</div>
+            <div class = "img1">
+                <img src= "photos/fadeImg1.jpeg" style="width: 22vw; height: 20vw; box-shadow: 2px 2px 3px rgba(0,0,0,.5);">
+                <div class = "captionTitle">SWEek of Welcome</div>
+                <div class = "caption">Welcome to Cornell Engineering and the Cornell SWE family! Each year Cornell SWE hosts a series of welcome socials 
+                    during the first week of classes. Check out our 2019 event schedule to get an idea of what to look forward to!
+                </div>
+            </div>
+            <div class = "img2">
+                <img src= "photos/fadeImg2.jpeg" style="width: 22vw;height: 20vw; box-shadow: 2px 2px 3px rgba(0,0,0,.5);">
+                <div class = "captionTitle">WE19 National Conference</div>
+                <div class = "caption">At the annual Conference for Women Engineers, Cornell SWE leaders have the opportunity to attend workshops, keynote speakers,
+                    a career fair, and various other professional and personal development events.
+            </div>
+                </div>
+           
+            <div class = "img3">
+                <img src= "photos/fadeImg3.jpeg" style="width: 24vw; height: 20vw; box-shadow: 2px 2px 3px rgba(0,0,0,.5);">
+                <div class = "captionTitle">Women in Engineering Day</div>
+                <div class = "caption">Hosted in conjunction with Cornell Days each April, SWE's Women in Engineering Day is a series of events designed to welcome a newly
+                    admitted female engineering students.
+            </div>
         </div>
     </div>
+    <div class = "readMoreHome">Read More <i class="arrow right"></i></div>
+    <div class = "joinPurple">
+        <div class = "joinSmall">GET INVOLVED</div>
+        <div class = "joinBig">Join Cornell SWE</div>
     </div>
-    <div class="row wrapper text-center">
+    <div class = "joinGray">
+        <div class = "listservText">Enter your Cornell netid to join our Listserve!</div>
+        <form action="#">
+        <input type="text" id="netid" name="netid" style="margin-left: 15%; margin-top: 2%;height: 2vw;">
+        <input type="submit" value="Submit" style="height: 2vw;width: 4vw;"></form>
+    </div>
+    </body>
 
-     <!-- <div class="large-12 columns">
-        <h4>
-          Upcoming Info Sessions
-        </h4>
-    <div class="wrapper">
-      <div class="row">
-        <div class="large-12 columns">
-  <table><tr><td><b>MITRE</b></td><td> <b>Moog, Inc.</b></td> <td> <b>3M Company</b></td><td><b>Andreessen Horowitz</b></td><td><b>Procter & Gamble</b></td></tr><tr><td> August 29, 2016</td><td>August 29, 2016 </td> <td> August 29, 2016</td><td> August 31, 2016</td><td> September 8, 2016</td></tr><tr><td> 6:00 PM</td><td>6:00 PM </td> <td> 7:30 PM</td><td> 6:00 PM</td><td> 6:00 PM</td></tr><tr><td> Phillips 213</td><td>Olin 218</td> <td> Olin 155</td><td> Phillips 403</td><td> Hollister B14</td></tr><tr><td> Pizza, cookies, and soda will be served</td><td>Pizza, cookies, and soda will be served</td> <td> Pizza, cookies, and soda will be served</td><td> Chipotle will be served</td><td> Cookies and soda will be served</td></tr><tr><td>Targeted towards any CS/Engineering students</td><td>Targeted towards seniors/master/co-ops in Electrical & Computer, Mechanical, Industrial/Systems Engineering</td> <td> Targeted towards sophomores/juniors/seniors in any major</td><td> Targeted towards juniors and seniors in Computer Science</td><td> Targeted towards any students in CS/Engineering</td></tr></table>
-</p>
-</div>
-</div>
-</div>-->
-        <!--<p>
-        <iframe src="https://www.google.com/calendar/embed?src=cornell.edu_07lvbs7satl07tdphlt387m9e0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </p>-->
-        <p>
-	  <iframe src="https://calendar.google.com/calendar/embed?src=1nuvc5rpj09oho1vjtci5o42h0%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </p>
-	    
-	<center>
-	  <p>Find us on social media</p>
-	  	<a href="https://www.facebook.com/CornellSwe/"><img src="images/fbicon.png" style="width:41px; height:41px" title="Cornell SWE Facebook" alt="Cornell SWE Facebook"></a>
-	  	<a href="https://www.instagram.com/swecornell/"><img src="images/instaicon.png" style="width:41px; height:41px" title="Cornell SWE Instagram" alt="Cornell SWE Instagram"></a>
-		<a href="https://twitter.com/CornellSWE1"><img src="images/twittericon.png" style="width:41px; height:41px" title="Cornell SWE Instagram" alt="Cornell SWE Instagram"></a>
-	</center>
-      </div>
-    </div>
-    <svg id="triangle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
-        <path d="M0 0 L50 100 L100 0 Z"></path>
-      </svg>
-    <div class="wrapper highlight text-center">
-    <div class="row">
-      <div class="large-12 columns">
-        <a class="button" href="join.html">
-          Join SWE
-        </a>
-      </div>
-    </div>
-    </div>
+    
 
-    <div id="footer"></div>
-       <script>
-       $("#footer").load("footer.html");
-       </script>
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/foundation/js/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <footer>
+        <div class = "social-wrapper">
+
+        </div>
+    </footer>
+
 </html>
