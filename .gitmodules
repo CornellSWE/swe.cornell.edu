@@ -1,0 +1,3 @@
+[submodule "path_to_submodule"] 
+  path = new_website
+  url = https://github.com/tz01/swe-website
