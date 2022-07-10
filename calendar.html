@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calendar</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+
+  <div class="container-fluid">
+    <h1 class="text-center mt-4 mb-5">Calendar</h1>
+    <div class="infoText mx-auto">
+      <p class="text-center">Sign up for our calendar to catch up on the latest events!</p>
+    </div>
+    <div class="calendar">
+      <p>
+        <iframe
+          src="https://calendar.google.com/calendar/embed?src=1nuvc5rpj09oho1vjtci5o42h0%40group.calendar.google.com&ctz=America%2FNew_York"
+          style="border: 0" width="600" height="450" frameborder="0" scrolling="no"></iframe>
+      </p>
+    </div>
+  </div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+
+
+
+
+
+</body>
+
+</html>

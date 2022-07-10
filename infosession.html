@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hosting an Info Session</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <h1 class="text-center mt-4 mb-5">Host an information session</h1>
+        <div class="mx-auto">
+          <p class="mt-4">If you're interested in sponsorship, please fill out the form below.
+            For further details, please see our Sponsorship Packet and our FAQ (hotlinked).</p>
+          <p class="mt-4">By hosting an information session, you will automatically become a sponsor
+            for SWE, and conversely, by becoming a sponsor, you will automatically have
+            the ability to host information sessions as according to the sponsorship tier. </p>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <button type="button" class="btn btn-dark joinBtn">
+            <a style="color:inherit" href="https://cornell.ca1.qualtrics.com/jfe/form/SV_bQvHcKAWBmQvIvc">Fill out
+              form</a>
+          </button>
+        </div>
+
+        <div class="container">
+          <h1 class="text-center my-5"> Frequently Asked Questions </h1>
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> When are the best times to hold an information session? </h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q1">+</button>
+            </div>
+            <div id="q1" class="collapse answer">
+              Classes officially end at 4:25pm each day. Career Services would like to
+              standardize session times, and so we will be offering sessions at 4:30pm, 6:00pm
+              , and 7:30pm. For engineers, Tuesday and Thursday evenings are preliminary
+              (midterm) exam nights. To avoid possible conflicts, please see the fall
+              preliminary exam schedule or fall final exam schedule. Exams for the
+              following courses are large lectures and tend to be busy times for
+              engineers: MATH 1910, 1920, 2930, 2940, PHYS 1112, 2213, 2214, CHEM 2090,
+              CS courses, ENGRD courses, and ENGRI courses.
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> How do I gauge the anticipated attendance at a session? </h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q2">+</button>
+            </div>
+            <div id="q2" class="collapse answer">
+              Although we can provide you with a number, we feel that it is better for
+              companies to anticipate their attendance as you will know best what your
+              turnout would be. The average number of students is typically 30. The base
+              prices for the refreshment options are determined by this average number.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> When is the latest I can cancel?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q3">+</button>
+            </div>
+            <div id="q3" class="collapse answer">
+              One week prior notice to SWE Corporate Relations Directors
+              (cornell.swe.cr@gmail.com) is required for cancellations.
+              Cancellations made 7 days or less than the date of the session will
+              result in a charge of half of the base price of a session. Less than 24
+              hours notice will result in a charge for the full price of the session.
+              If you cancel at least 7 days prior to your scheduled info session,
+              you will be fully refunded.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> Why did my room reservation change from what was confirmed?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q4">+</button>
+            </div>
+            <div id="q4" class="collapse answer">
+              Professors who make requests for academic purposes have priority
+              over any other type of reservation. If such an event happens, we will
+              find the next available location in closest proximity to the original
+              reservation. We will send out emails and announcements to students about
+              the location change. Additionally, we will post signs and have a
+              liaison to redirect students to your new session location the day of your
+              session.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> Can I opt to have a closed session for selected interviewees only?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q5">+</button>
+            </div>
+            <div id="q5" class="collapse answer">
+              Yes, you can choose to not advertise your session to the general campus
+              community. We will notify Engineering Career Services of your request and
+              they will notify only the list of interviewees.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> When is payment due?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q6">+</button>
+            </div>
+            <div id="q6" class="collapse answer">
+              Payment is due one to two weeks after an info session.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question"> How do I pay?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q7">+</button>
+            </div>
+            <div id="q7" class="collapse answer">
+              We will send you a payment link and invoice. For tax and federal ID,
+              please email us at cornell.swe.cr@gmail.com.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question">How soon can I expect a confirmation after I submit my request?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q8">+</button>
+            </div>
+            <div id="q8" class="collapse answer">
+              Within a week. We will work on getting your request processed as soon
+              as possible. Turnaround time can be as early as 24 hours.
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="clearfix full-width">
+              <h4 class="question">When is the latest I can request to coordinate an information session with SWE?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q9">+</button>
+            </div>
+            <div id="q9" class="collapse answer">
+              In order for SWE to provide the highest quality service, all session
+              details must be finalized at least one week prior to the desired date.
+              Ordering food and reserving a room is never a problem, however, it does
+              take one week for room requests to be processed and confirmed. At least a
+              week is necessary to properly publicize an information session and ensure
+              the session has sufficient number of liaisons and volunteers. Since session
+              details may take several days to finalize - especially if you have
+              any questions about the session options - we recommend that session requests
+              are made at least 14 days prior to the desired date.
+            </div>
+          </div>
+
+
+          <div class="row my-2">
+            <div class="clearfix full-width">
+              <h4 class="question">I am interested in the Professional Networking Dinner, how can I register for
+                that?</h4>
+              <button type="button" class="btn btn-light float-right" data-toggle="collapse"
+                data-target="#q10">+</button>
+            </div>
+            <div id="q10" class="collapse answer">
+              WE proudly presents our semiannual Professional Networking Dinner.
+              Registration starts about 4-5 months before the Dinner. For more information
+              and to sign up please visit our Professional Networking Dinner page. If you
+              have any questions about this event, please email cornellswe.pnd@gmail.com.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+
+</body>
+
+</html>

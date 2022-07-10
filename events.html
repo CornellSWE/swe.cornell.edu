@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SWE - Events</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="header">
+        <h1>Events</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <nav class="nav-fixed">
+          <div class="eboard-nav">
+            <div>
+              <a class="welcome_nav" href="#welcome">
+                SWEek of Welcome
+              </a>
+            </div>
+            <div>
+              <a class="pnd_nav" href="#network-dinner">
+                Professional Networking Dinner
+              </a>
+            </div>
+            <div>
+              <a class="conference_nav" href="#we-conference">
+                WE Conference
+              </a>
+            </div>
+            <div>
+              <a class="wie_nav" href="#women-engineering">
+                Women in Engineering Day
+              </a>
+            </div>
+            <div>
+              <a class="gbody_nav" href="#gbody">
+                General Body Meetings
+              </a>
+            </div>
+        </nav>
+
+      </div>
+      <div class="col-sm-7">
+        <div id="welcome" class="content-section">
+          <div class="card event-card">
+            <img class="events-img" src="new_website/public/images/sweek-of-welcome.jpg" alt="SWEek Welcome">
+            <h2>SWEek of Welcome</h2>
+            Welcome to Cornell Engineering and the Cornell SWE family! Every year, we hold a SWEek of welcome where
+            students can mingle with other students and upperclassmen and learn about opportunities at Cornell! Check
+            out our Google calendar and Instagram for the schedule!
+          </div>
+        </div>
+        <div id="network-dinner" class="content-section">
+          <div class="card event-card">
+            <img class="events-img" src="new_website/public/images/pnd_im1.jpg" alt="Professional Networking Dinner">
+            <h2>Professional Netowrking Dinner</h2>
+            The Cornell University Society of Women Engineers proudly presents our semiannual Professional Networking
+            Dinner in the Statler Ballroom. Held the evening before Cornell's technical career fair, the Professional
+            Networking Dinner enables company representatives and students to interact in an intimate yet relaxed
+            environment.
+          </div>
+        </div>
+        <div id="we-conference" class="content-section">
+          <div class="card event-card">
+            <img class="events-img" src="new_website/public/images/2019-WE19-cropped.jpeg" alt="WE21 Conference">
+            <h2>WE Conference</h2>
+            National SWE Conference is held in a different
+            city every year and attended by over 15,000 attendees. It's an awesome opportunity to
+            network with other female engineers, attend educational talks that range from imposter syndrome in the
+            workplace to better decision making, and participate in the world's largest career fair for women engineers.
+          </div>
+        </div>
+        <div id="women-engineering" class="content-section">
+          <div class="card event-card">
+            <img class="events-img" src="new_website/public/images/2019-WIE-Day.JPG" alt="Women in Engineering Day">
+            <h2>Women in Engineering Day</h2>
+            Every year we run Women in Engineering Day for accepted students, where we seek to expose admitted
+            women to the opportunities at Cornell and the influence and strength of our section of SWE.
+            We seek to foster a welcoming environment for our newly accepted students and
+            celebrate their accomplishments.
+          </div>
+        </div>
+        <div id="gbody" class="content-section">
+          <div class="card event-card">
+            <img class="events-img" src="new_website/public/images/directorships/gbody_im1.jpeg" alt="Gbody meeting">
+            <h2>General Body Meetings</h2>
+            Cornell SWE's General Body meetings are monthly opportunities for our
+            members to gather to network and learn about upcoming events/opportunities. We
+            provide a different social activity and food, as well as raffle prizes!
+            Find out about all the awesome events we have coming up
+            and take an afternoon to relax with your SWEsters!
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src="new_website/scripts/events.js"></script>
+  <script type="module" src="../scripts/eboard.js"></script>
+
+</body>
+
+</html>

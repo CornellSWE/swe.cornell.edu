@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sponsorship</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <h1 class="text-center mt-4 mb-5">Sponsorship</h1>
+        <div class="mx-auto">
+          <p>If you're interested in sponsorship, please fill out the form below.
+            For further details, please see our Sponsorship Packet and our FAQ (hotlinked).</p>
+          <p>By hosting an information session, you will automatically become a sponsor
+            for SWE, and conversely, by becoming a sponsor, you will automatically have
+            the ability to host information sessions as according to the sponsorship tier. </p>
+        </div>
+        <div style="display: flex;"><button type="button" class="margin-auto btn btn-dark joinBtn">
+            <a style="color:inherit" href="https://cornell.ca1.qualtrics.com/jfe/form/SV_bQvHcKAWBmQvIvc">Fill out
+              form</a>
+          </button>
+        </div>
+        <div class="sponsor-flex">
+          <div class="margin-auto">
+            <img src="new_website/public/images/company_images/johnson.png" class="sponsor-img" alt="Johnson">
+          </div>
+          <div class="margin-auto">
+            <img src="new_website/public/images/company_images/sambanova.png" class="sponsor-img" alt="Sambanova">
+          </div>
+          <div class="margin-auto">
+            <img src="new_website/public/images/company_images/regeneron.png" class="sponsor-img" alt="Regeneron">
+          </div>
+          <div class="margin-auto">
+            <img src="new_website/public/images/company_images/censys.png" class="sponsor-img" alt="Censys">
+          </div>
+          <div class="margin-auto">
+            <img src="new_website/public/images/company_images/capitalone.png" class="sponsor-img" alt="Capital One">
+          </div>
+          <div class="margin-auto">
+            <img src="new_website/public/images/company_images/pepsi.png" class="sponsor-img" alt="Pepsi">
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+
+</body>
+
+</html>

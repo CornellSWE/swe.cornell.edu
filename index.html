@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+
+  <div class="home-page">
+
+    <div class="overlay">
+      <div class="frontpage"></div>
+      <div class="SWE-intro">
+        <text>Society of Women Engineers</text>
+        <br />
+        <text class="SWE-motto">Aspiring. Advancing. Achieving.</text>
+      </div>
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 leftcol">
+          <div class="subheading">ABOUT US</div>
+          <h2> Who We Are</h2>
+          <div class="subcontent">
+            <text class="description">
+              The Cornell Student Section of the Society of Women Engineers is
+              open to all (male and female) undergraduate and graduate students in
+              engineering and technical fields. Each year, we run numerous programs
+              and events to promote engineering, diversity, career and professional
+              development, academic support, and pre-college education.
+            </text>
+          </div>
+        </div>
+        <div class="col-lg-7 rightcol">
+          <span class="vertcenter-helper"></span><img alt="2019 eboard"
+            src="new_website/public/images/2019-SWE-eboard.JPG" id="infographic"></img>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mission">
+      <div class="row row-container ">
+        <text class="h2 row-heading"> Our Mission</text>
+        <div class="subcontent">
+          <text class="description row-description">
+            We promote women in Engineering by advocating
+            the importance of diversity and by uniting resources to
+            <span class="colored-text"> encourage academic, leadership,
+              professional, and personal excellence </span> for the entire
+            Engineering community of Today and Tomorrow.
+          </text>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid event-highlights">
+
+      <div class="h2 row-heading" id="highlight-header"> Event Highlights</div>
+      <div class="row ">
+        <div class="col-lg-4">
+          <div class="highlight-container">
+            <div class="highlight-image-1">
+            </div>
+            <div class="highlight-text">
+              <div class="highlight-title">SWEek of Welcome</div>
+              <div class="highlight-blurb">
+                Welcome to Cornell Engineering and the Cornell SWE family! Each year Cornell SWE hosts a series of
+                welcome socials
+                during the first week of classes. Check out our 2019 event schedule to get an idea of what to look
+                forward to.
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4">
+          <div class="highlight-container">
+            <div class="highlight-image-2">
+            </div>
+            <div class="highlight-text">
+              <div class="highlight-title">Women in Engineering Day</div>
+              <div class="highlight-blurb">
+                Hosted in conjunction with Cornell Days each April, SWE’s Women in Engineering Day is a series of events
+                designed
+                to welcome all newly admitted female engineering students.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="highlight-container">
+            <div class="highlight-image-3">
+            </div>
+            <div class="highlight-text">
+              <div class="highlight-title">WE19 National Conference</div>
+              <div class="highlight-blurb">
+                At the annual Conference for Women Engineers, Cornell SWE leaders have the opportunity to attend
+                workshops, keynote presentations, a career fair, and various other professional and personal development
+                events.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="new_website/pages/events.html"><strong id="read-more"><span class="arrow">Read more &nbsp;
+                &#10230;</span></strong></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid join-swe">
+      <div class="row">
+        <div class="col-lg-5 leftcol">
+          <div class="subheading">GET INVOLVED</div>
+          <h2> Join Cornell SWE</h2>
+          <div class="subcontent">
+
+          </div>
+        </div>
+        <div class="col-lg-7 rightcol">
+          <text class="description">
+            To join the listserv, please send an email from your Cornell email account to
+            (swemail-l-request@cornell.edu) with
+            "join" in the subject line and
+            nothing in the body.
+          </text>
+        </div>
+      </div>
+    </div>
+    <div class="row-spacer"></div>
+  </div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+
+</body>
+
+</html>

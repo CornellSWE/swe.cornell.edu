@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Directorships</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <div class="container-fluid">
+
+    <div class="header">
+      <h1>Directorships</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="directorship" id="career-dev">
+                  <img src="new_website/public/images/directorships/dr_image9.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Career Development</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="directorship" id="conference">
+                  <img src="new_website/public/images/directorships/dr_image6.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Conference</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="directorship" id="communications">
+                  <img src="new_website/public/images/directorships/getinvolved1.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Communications</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="directorship" id="corporate-relations">
+                  <img src="new_website/public/images/directorships/pnd_im2.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Corporate Relations</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="card-dir">
+
+            <h2 class="dir-header" id="content-title">Career Development</h2>
+            <div class="line"></div>
+            <div id="content">
+              <p>
+                The Career Development directorship aims to enhance SWE members'
+                skills in their career path by guiding them through various events,
+                such as the Professional Networking Dinner, etiquette lunch, and
+                industry panels. They also connect SWE to corporations and build
+                strong relationships between the students and companies. Career
+                Development's goal is to shape SWE members and guide them in finding
+                for a career.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="directorship" id="finance">
+                  <img src="new_website/public/images/directorships/dr_image2.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Finance</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="directorship" id="fundraising">
+                  <img src="new_website/public/images/directorships/dr_image4.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Fundraising</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="directorship" id="student-services">
+                  <img src="new_website/public/images/directorships/dr_image6.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Student Services</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="directorship" id="outreach">
+                  <img src="new_website/public/images/directorships/dr_image7.jpg" class="dir-img">
+                  <div class="centered">
+                    <h5>Outreach</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="new_website/scripts/directorships.js"></script>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+</body>
+
+</html>

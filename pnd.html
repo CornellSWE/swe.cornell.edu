@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Professional Networking Dinner</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <div class="container-fluid">
+    <h1 class="text-center my-5">Professional Networking Dinner</h1>
+    <div class="intro">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <p>Held the evening before Cornell's technical career fair, the Professional Networking
+            Dinner enables company representatives and students to interact in an intimate
+            yet relaxed environment. This allows representatives to share personal and
+            business experiences while seeing first-hand just what Cornell has to offer.
+            Students have the opportunity to speak to representatives for an extended
+            period of time and to learn more about the workplace environment of many top
+            engineering companies. We cordially invite you to join us for this unique
+            networking opportunity.</p>
+        </div>
+        <div class="col-sm-4">
+          <img src="new_website/public/images/pnd_im1.jpg" style="width:100%">
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+    <ul class="nav nav-pills mb-3 justify-content-center mt-5" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active nav-link-color" id="pills-home-tab" data-toggle="pill" href="#pills-students"
+          role="tab" aria-controls="pills-home" aria-selected="true">Students</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-link-color" id="pills-profile-tab" data-toggle="pill" href="#pills-companies" role="tab"
+          aria-controls="pills-profile" aria-selected="false">Companies</a>
+      </li>
+    </ul>
+    <div class="tab-content mt-3 mb-5" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-students" role="tabpanel" aria-labelledby="pills-students-tab">
+        <p>Tickets are $15 and may be purchased online with a credit card. The
+          dinner consists of a four course meal catered by The Statler, with
+          four rotations, during which you will be able to network with
+          different companies in a relaxed environment. Additionally, there
+          will be a short networking session prior to the start of the official
+          rotations, and a thirty minute networking session at the end of the
+          night so that you will have the opportunity to speak to any
+          representatives that you may have missed, or would like to talk to
+          again. This is a great way to meet company reps and find a summer
+          internship, co-op, or full time job.</p>
+      </div>
+      <div class="tab-pane fade" id="pills-companies" role="tabpanel" aria-labelledby="pills-companies-tab">
+        <p>The event will cost $200.00 for the first company representative and
+          $180.00 for each additional representative. Please note that each
+          company is limited to a maximum of 4 company representatives.
+          Companies may also choose to purchase an advertisement to be included
+          in the program. Half page ads (5"x4") cost $50 and full page ads
+          (5"x 8") cost $70.</p>
+        <p>Dinner and four networking rotations will allow you to meet a wide
+          variety of students in a casual and friendly atmosphere.
+          Representatives are invited to stay an additional half hour, until
+          10:00pm, for further networking. This is a wonderful opportunity to
+          get to know potential full-time and internship applicants prior to
+          the career fair.</p>
+      </div>
+    </div>
+  </div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+
+
+
+</body>
+
+</html>

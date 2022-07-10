@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SWE - EBoard</title>
+  <link rel="stylesheet" href="new_website/public/styles/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $.get("nav.html", function (data) {
+      $("#nav-placeholder").replaceWith(data);
+    });
+  </script>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="header">
+        <h1>EBoard</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <nav class="nav-fixed">
+          <div class="eboard-nav">
+            <div>
+              <a class="presidents" href="#presidents">
+                Presidents
+              </a>
+            </div>
+            <div>
+              <a class="finance" href="#finance">
+                Finance
+              </a>
+            </div>
+            <div>
+              <a class="fundraising" href="#fundraising">
+                Fundraising
+              </a>
+            </div>
+            <div>
+              <a class="outreach" href="#outreach">
+                Outreach
+              </a>
+            </div>
+            <div>
+              <a class="corporate" href="#corporate">
+                Corporate
+              </a>
+            </div>
+            <div>
+              <a class="careerdev" href="#careerdev">
+                Career<br>Development
+              </a>
+            </div>
+            <div>
+              <a class="studentservices" href="#studentservices">
+                Student Services
+              </a>
+            </div>
+            <div>
+              <a class="communications" href="#communications">
+                Communications
+              </a>
+            </div>
+            <div>
+              <a class="conference" href="#conference">
+                Conference
+              </a>
+            </div>
+            <!-- <div>
+                    <a href="#webmaster">
+                      Webmaster
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#gradswe">
+                      GradSWE
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#facultyadvisor">
+                      Faculty Advisor
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#counselor">
+                      Counselor
+                    </a>
+                  </div> -->
+          </div>
+        </nav>
+
+      </div>
+      <div class="col-sm-7">
+        <div id="presidents" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/sarahhuang.jpg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Co-President</b>- Sarah Huang</p>
+                    <p class="major">Chemical Engineering '22</p>
+                    <p> Hometown: San Francisco, CA</p>
+                    <p>Why I joined SWE: I joined SWE to be a part of an empowering community :)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/emilyjaquin.jpeg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Co-President</b>- Emily Jaquin</p>
+                    <p class="major">Chemical Engineering '22</p>
+                    <p> Hometown: Westhampton Beach, NY</p>
+                    <p>Why I joined SWE: I joined SWE because I believe I am so inspired by all of the incredible female
+                      engineers in my
+                      life and want to do everything I can to empower future generations of women in STEM.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="finance" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/mayagardner.jpg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Junior Finance Director</b>- Maya Gardner</p>
+                    <p class="major">Mechanical Engineering '24</p>
+                    <p> Hometown: Monmouth Beach, NJ</p>
+                    <p>Why I joined SWE: I loved the idea of an all female organization made up of fellow engineers that
+                      offered
+                      networking opportunities and the chance to meet some super cool girls. It's really important to
+                      have a strong network of your peers around you that inspire and support you and I think SWE helps
+                      me with that!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="fundraising" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/kristenlee.jpg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Fundraising Co-Director</b>- Kristin Lee</p>
+                    <p class="major">Computer Science '22</p>
+                    <p> Hometown: Tarrytown, NY</p>
+                    <p>Why I joined SWE: I'm passionate about supporting women in engineering. I think it's super
+                      important that women have a place in traditionally male dominated fields like STEM. SWE is an
+                      organization that provides women with a support network and opportunities to pursue a career in
+                      engineering and that is something I want to be a part of.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/audreyyap.png" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Fundraising Co-Director</b>- Audrey Yap</p>
+                    <p class="major">Operations Research and Engineering '22</p>
+                    <p> Hometown: Kansas City, Kansas</p>
+                    <p>Why I joined SWE: I was reluctant at first, but then my friends told me how useful the resources
+                      are and how supportive all the members are of each other. Once I joined, I branched out my network
+                      and met so many inspirational and amazing people that I would have otherwise never met.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="outreach" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/alicandy.jpg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Outreach Co-Director</b>- Ali Candy</p>
+                    <p class="major">Mechanical Engineering '23</p>
+                    <p> Hometown: Tarrytown, NY</p>
+                    <p>Why I joined SWE: I'm passionate about supporting women in engineering. I think it's super
+                      important that women have a place in traditionally male dominated fields like STEM. SWE is an
+                      organization that provides women with a support network and opportunities to pursue a career in
+                      engineering and that is something I want to be a part of.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/hannatormey.JPG" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Outreach Co-Director</b>- Hanna Tormey</p>
+                    <p class="major">Information Science, Systems, and Technology '23</p>
+                    <p> Hometown: Midlothian, VA</p>
+                    <p>Why I joined SWE: I wanted to find more opportunities to interact with women in engineering
+                      fields.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="corporate" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/tiyeselby.jpg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Senior Corporate Relations</b>- Tiye Selby</p>
+                    <p class="major">Chemical Engineering '23</p>
+                    <p> Hometown: Tarrytown, NY</p>
+                    <p>Why I joined SWE: I'm passionate about supporting women in engineering. I think it's super
+                      important that women have a place in traditionally male dominated fields like STEM. SWE is an
+                      organization that provides women with a support network and opportunities to pursue a career in
+                      engineering and that is something I want to be a part of.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/aionashby.jpeg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Senior Corporate Relations Director</b>- Aion Ashby</p>
+                    <p class="major">Computer Science '22</p>
+                    <p> Hometown: West Orange, NJ</p>
+                    <p>Why I joined SWE: To be in a community of likeminded women.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/ayushiharia.jpeg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Liaison Director</b>- Ayushi Haria</p>
+                    <p class="major">Operations Research and Information Engineering '23</p>
+                    <p> Hometown: Downingtown, PA</p>
+                    <p>Why I joined SWE: To meet so many amazing and smart women in engineering fields!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/christinazeng.JPG" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Publicity Director</b>- Christina Zeng</p>
+                    <p class="major">Information Science, Systems, and Technology '24</p>
+                    <p> Hometown: Troy, MI</p>
+                    <p>Why I joined SWE: To meet amazing women engineers!! SWE is such a great resource for individuals
+                      to create a support system. As someone who is passionate about advocating for women in STEM, SWE
+                      is the kind of community I not only want to be a part of but want to help develop and give back
+                      to.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="careerdev" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/cindywei.JPG" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Career Development Director</b>- Cindy Wei</p>
+                    <p class="major">Mechanical Engineering '22</p>
+                    <p> Hometown: Beijing, China</p>
+                    <p>Why I joined SWE: Join a close network/community of girls in STEM and to have a strong support
+                      system.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="studentservices" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/gabriellapassarelli.jpeg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Student Services Director</b>- Gabriella Passarelli</p>
+                    <p class="major">Mechanical Engineering '23</p>
+                    <p> Hometown: Fairfield, CT</p>
+                    <p>Why I joined SWE: It’s such a welcoming and supportive community!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="communications" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/deniztekant.jpeg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Communications Director</b>- Deniz Tekant</p>
+                    <p class="major">Operations Research and Information Engineering '22</p>
+                    <p> Hometown: Istanbul, Turkey</p>
+                    <p>Why I joined SWE: I wanted to be a part of a community that is passionate about creating equal
+                      opportunities for women in stem and encourage younger generations to explore their interests in
+                      engineering!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="conference" class="content-section">
+          <div class="card">
+            <div class="member-info">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-4"><img src="new_website/public/images/emilyyang.jpeg" class="headshot"
+                      alt="headshot">
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="role"><b>Conference Director</b>- Emily Yang</p>
+                    <p class="major">Computer Science '22</p>
+                    <p> Hometown: Denver, CO</p>
+                    <p>Why I joined SWE: As someone that still felt unsure about what I wanted or my place in the world,
+                      I was looking for peers that might help me orient myself, and I was also looking to be inspired by
+                      accomplished women that had once been in my position.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src="new_website/scripts/eboard.js"></script>
+
+  <div id="footer-placeholder"></div>
+  <script>
+    $.get("footer.html", function (data) {
+      $("#footer-placeholder").replaceWith(data);
+    });
+  </script>
+</body>
+
+</html>
