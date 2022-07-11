@@ -1,0 +1,228 @@
+{
+  "presidents": [
+    {
+      "Timestamp": "8/4/2021 21:10:13",
+      "Full Name": "Sarah Huang",
+      "NetID": "slh268",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1lI7LAjPBx_i3K1XASuDPGuCFtBgD5evs",
+      "Grad Year": 2022,
+      "EBoard position": "Co-President",
+      "Major": "Chemical Engineering",
+      "Hometown (City, State)": "San Francisco, CA",
+      "What did you do this summer?": "I was an intern at Regeneron Pharmaceuticals in the Immune and Inflammatory Disease department.",
+      "Why did you join SWE?": "I joined SWE to be a part of an empowering community :)",
+      "Favorite Class (or one you're looking forward to most)": "Social Inequality"
+    },
+    {
+      "Timestamp": "8/5/2021 15:45:55",
+      "Full Name": "Emily Jaquin",
+      "NetID": "egj24",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1Gg3B2nlZCX3l26dwydywZZD9bhzcTrT1",
+      "Grad Year": 2022,
+      "EBoard position": "Co-President",
+      "Major": "Chemical Engineering",
+      "Hometown (City, State)": "Westhampton Beach, NY",
+      "What did you do this summer?": "Interned at a lab, relaxed on the beach, and visited the Grand Canyon.",
+      "Why did you join SWE?": "I joined SWE because I believe I am so inspired by all of the incredible female engineers in my life and want to do everything I can to empower future generations of women in STEM.",
+      "Favorite Class (or one you're looking forward to most)": "Women’s Self Defense and Introduction to Wines"
+    }
+  ],
+  "finance": [
+    {
+      "Timestamp": "8/16/2021 14:14:53",
+      "Full Name": "Maya Gardner",
+      "NetID": "mlg267",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1GSJC3odRNr8pB_w4lVlnmu5NOPNCv01F",
+      "Grad Year": 2024,
+      "EBoard position": "Junior Finance Director",
+      "Major": "Mechanical Engineering",
+      "Hometown (City, State)": "Monmouth Beach, NJ",
+      "What did you do this summer?": "Traveled and enjoyed hanging out with my family!",
+      "Why did you join SWE?": "I loved the idea of an all female organization made up of fellow engineers that offered networking opportunities and the chance to meet some super cool girls. It's really important to have a strong network of your peers around you that inspire and support you and I think SWE helps me with that!",
+      "Favorite Class (or one you're looking forward to most)": "My government class this fall, global studies gateway"
+    }
+  ],
+  "fundraising": [
+    {
+      "Timestamp": "8/6/2021 19:16:43",
+      "Full Name": "Audrey Yap",
+      "NetID": "amy34",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1YsS1yVLKXEe3kJdYozd_zB3fTvGZZrLJ",
+      "Grad Year": 2022,
+      "EBoard position": "Fundraising Co-Director",
+      "Major": "Operations Research and Engineering",
+      "Hometown (City, State)": "Kansas City, Kansas",
+      "What did you do this summer?": "I was a data science intern at Elucidate AI. In my free time, I played video and board games with my siblings and cousins.",
+      "Why did you join SWE?": "I was reluctant at first, but then my friends told me how useful the resources are and how supportive all the members are of each other. Once I joined, I branched out my network and met so many inspirational and amazing people that I would have otherwise never met.",
+      "Favorite Class (or one you're looking forward to most)": "CLASS 2604: Greek Mythology"
+    },
+    {
+      "Timestamp": "8/4/2021 20:59:59",
+      "Full Name": "Kristin Lee",
+      "NetID": "kjl92",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1rSzxs52PJIp7s11CKrtYCtu_P-1hU1MY",
+      "Grad Year": 2022,
+      "EBoard position": "Fundraising Co-Director",
+      "Major": "Computer Science",
+      "Hometown (City, State)": "Tarrytown, NY",
+      "What did you do this summer?": "Information Security Internship at Cisco",
+      "Why did you join SWE?": "I'm passionate about supporting women in engineering. I think it's super important that women have a place in traditionally male dominated fields like STEM. SWE is an organization that provides women with a support network and opportunities to pursue a career in engineering and that is something I want to be a part of.",
+      "Favorite Class (or one you're looking forward to most)": "CS 4450: Intro to Computer Networks"
+    }
+  ],
+  "outreach": [
+    {
+      "Timestamp": "8/5/2021 19:55:54",
+      "Full Name": "Hanna Tormey",
+      "NetID": "hat33",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1palAuaU_FHbWAu2MAStTjGHXXJEd9tUm",
+      "Grad Year": 2023,
+      "EBoard position": "Co-Outreach Director",
+      "Major": "Information Science, Systems, and Technology",
+      "Hometown (City, State)": "Alfred, NY",
+      "What did you do this summer?": "Research at the Future of Learning Lab and Communication and Collaborative Technologies Lab.",
+      "Why did you join SWE?": "The people!  I have met some of my best friends through SWE.",
+      "Favorite Class (or one you're looking forward to most)": "PAM 2070 Big Data, Big Policy Problems"
+    },
+    {
+      "Timestamp": "8/4/2021 14:05:32",
+      "Full Name": "Ali Candy",
+      "NetID": "aec242",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1MO6421I-n-MMmRkeUvlsqsvaJXXK7AeB",
+      "Grad Year": 2023,
+      "EBoard position": "Outreach Director",
+      "Major": "Mechanical Engineering",
+      "Hometown (City, State)": "Middletown, DE",
+      "What did you do this summer?": "This summer, I interned at Exelon, a utility company, in their gas engineering department. I worked on developing integrity management plans for gas pipeline distribution systems and developed an app for field inspectors. In my free time, I spent time with my family at the beach, explored the gym, and went for lots of walks!",
+      "Why did you join SWE?": "As a prospective student, I attended one of the Women in Engineering days put on by SWE. The female engineers I met that day were one of the main reasons I chose to come to Cornell, and I knew the SWE community was something I wanted to be a part of. Having a strong support network of females in engineering and helping spark young girls' interest in STEM through outreach is super empowering.",
+      "Favorite Class (or one you're looking forward to most)": "Mechanical Synthesis (MAE 2250)"
+    }
+  ],
+  "corporate": [
+    {
+      "Timestamp": "10/12/2021 9:56:59",
+      "Full Name": "Tiye Selby",
+      "NetID": "tas277",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1o8ipVsoU6G46bXe1dvkEZAqgWwUwZt23",
+      "Grad Year": 2023,
+      "EBoard position": "Senior Corporate Relations",
+      "Major": "Chemical Engineering",
+      "Hometown (City, State)": "Midlothian, VA",
+      "What did you do this summer?": "I completed by 6 month co-op with Johnson and Johnson.",
+      "Why did you join SWE?": "I wanted to find more opportunities to interact with women in engineering fields.",
+      "Favorite Class (or one you're looking forward to most)": "Introduction to Yoga"
+    },
+    {
+      "Timestamp": "8/27/2021 13:52:39",
+      "Full Name": "Aion Ashby",
+      "NetID": "aea99",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1ot1TcuhSChdyzgZDaThbndhnf2W1rxMS",
+      "Grad Year": 2022,
+      "EBoard position": "Senior Corporate Relations Director",
+      "Major": "Computer Science",
+      "Hometown (City, State)": "West Orange, NJ",
+      "What did you do this summer?": "I was a Twitter Software Engineering Intern",
+      "Why did you join SWE?": "To be in a community of likeminded women",
+      "Favorite Class (or one you're looking forward to most)": "Project Management"
+    },
+    {
+      "Timestamp": "8/27/2021 13:52:39",
+      "Full Name": "Aion Ashby",
+      "NetID": "aea99",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1ot1TcuhSChdyzgZDaThbndhnf2W1rxMS",
+      "Grad Year": 2022,
+      "EBoard position": "Senior Corporate Relations Director",
+      "Major": "Computer Science",
+      "Hometown (City, State)": "West Orange, NJ",
+      "What did you do this summer?": "I was a Twitter Software Engineering Intern",
+      "Why did you join SWE?": "To be in a community of likeminded women",
+      "Favorite Class (or one you're looking forward to most)": "Project Management"
+    },
+    {
+      "Timestamp": "8/4/2021 13:45:39",
+      "Full Name": "Ayushi Haria",
+      "NetID": "ash264",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1i4OM1ehrydnFgN1MlJiJwauztGGj15DP",
+      "Grad Year": 2023,
+      "EBoard position": "Liaison Director",
+      "Major": "ORIE",
+      "Hometown (City, State)": "Downingtown, PA",
+      "What did you do this summer?": "Internship at Comcast",
+      "Why did you join SWE?": "To meet so many amazing and smart women in engineering fields!!",
+      "Favorite Class (or one you're looking forward to most)": "ORIE 3120"
+    },
+    {
+      "Timestamp": "8/6/2021 14:03:53",
+      "Full Name": "Christina Zeng",
+      "NetID": "cwz6",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1ZeGnIcy9y3hh_2Soe3dXVVuOWi8egkVr",
+      "Grad Year": 2024,
+      "EBoard position": "Publicity Director",
+      "Major": "Information Science, Systems, and Technology",
+      "Hometown (City, State)": "Troy, MI",
+      "What did you do this summer?": "Over the summer I was a student, restaurant worker, and fruit connoisseur (did you know yellow watermelons existed). In my free time, I did a lot of macrame, painting, and dog petting.",
+      "Why did you join SWE?": "To meet amazing women engineers!! SWE is such a great resource for individuals to create a support system. As someone who is passionate about advocating for women in STEM, SWE is the kind of community I not only want to be a part of but want to help develop and give back to.",
+      "Favorite Class (or one you're looking forward to most)": "Intro to Digital Product Design"
+    }
+  ],
+  "careerdev": [
+    {
+      "Timestamp": "8/27/2021 13:55:42",
+      "Full Name": "Cindy Wei",
+      "NetID": "cyw28",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=154wU-a3jsrWscdXcwES_hgvbXB--slZt",
+      "Grad Year": 2022,
+      "EBoard position": "Career Development Co-Director",
+      "Major": "Mechanical Engineering",
+      "Hometown (City, State)": "Beijing, China",
+      "What did you do this summer?": "Interned at Honeywell doing New Product Development!",
+      "Why did you join SWE?": "Join a close network/community of girls in STEM and to have a strong support system",
+      "Favorite Class (or one you're looking forward to most)": "Looking forward to MAE 4340 Innovative Product Design via Digital Manufacturing :)"
+    }
+  ],
+  "studentservices": [
+    {
+      "Timestamp": "8/26/2021 19:07:36",
+      "Full Name": "Gabriella Passarelli",
+      "NetID": "Gmp66",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=10MzfED2uD0bMoz2yL5P4C5rBHaT7Oq0u",
+      "Grad Year": 2023,
+      "EBoard position": "Student Services Co-Director",
+      "Major": "MechE",
+      "Hometown (City, State)": "Fairfield, CT",
+      "What did you do this summer?": "Interned at CannonDesign in Boston",
+      "Why did you join SWE?": "It’s such a welcoming and supportive community!",
+      "Favorite Class (or one you're looking forward to most)": "Intro to sustainable design"
+    }
+  ],
+  "conference": [
+    {
+      "Timestamp": "8/6/2021 22:23:53",
+      "Full Name": "Emily Yang",
+      "NetID": "ey89",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=1RfW86exjlqlX7KTBRDHtV1vQz7AN48gb",
+      "Grad Year": 2022,
+      "EBoard position": "Conference Co-Director",
+      "Major": "Computer Science",
+      "Hometown (City, State)": "Denver, CO",
+      "What did you do this summer?": "I was lucky enough to work as a Data Analytics intern at DISH Network. Learned a ton from all the brilliant people around me.",
+      "Why did you join SWE?": "As someone that still felt unsure about what I wanted or my place in the world, I was looking for peers that might help me orient myself, and I was also looking to be inspired by accomplished women that had once been in my position.",
+      "Favorite Class (or one you're looking forward to most)": "CS 4780"
+    }
+  ],
+  "communication": [
+    {
+      "Timestamp": "8/14/2021 17:41:52",
+      "Full Name": "Deniz Tekant",
+      "NetID": "dt379",
+      "Picture? (something fun or a headshot)": "https://drive.google.com/open?id=14soKVrRSfKSdPXvAA4fIMvjNWNpBO_9Y",
+      "Grad Year": 2022,
+      "EBoard position": "Comms Co-Director",
+      "Major": "ORIE",
+      "Hometown (City, State)": "Istanbul, Turkey",
+      "What did you do this summer?": "Remote Business Analyst Intern at Johnson&Johnson while making the most of the good weather in ithaca!",
+      "Why did you join SWE?": "I wanted to be a part of a community that is passionate about creating equal opportunities for women in stem and encourage younger generations to explore their interests in engineering!",
+      "Favorite Class (or one you're looking forward to most)": "favorite: INFO 2950 looking forward to: ORIE 4100"
+    }
+  ]
+}
