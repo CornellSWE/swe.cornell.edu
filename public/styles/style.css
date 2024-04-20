@@ -95,6 +95,8 @@ body {
   text-decoration: none;
   color: #000000;
   background-color: rgba(169, 168, 169, 0.2);
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .nav-swe a:hover,
