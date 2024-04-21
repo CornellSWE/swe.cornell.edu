@@ -87,7 +87,10 @@ body {
   /* Important for vertical align on mobile phones */
   margin: 0;
   font-size: 16px;
-  text-align: center;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
 
 }
 
