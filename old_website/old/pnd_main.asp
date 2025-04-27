@@ -37,7 +37,7 @@ first hand just what Cornell has to offer.</p>
 may be submitted online via credit card or by mail via check. Checks can
 be made out to Cornell SWE and mailed to:</p>
 
-<p>Diversity Programs in Engineering<br/>
+<p>Office of Inclusive Excellence<br/>
 146 Olin Hall<br/>
 ATTN: Society of Women Engineers, Career Development<br/>
 Cornell University<br/>

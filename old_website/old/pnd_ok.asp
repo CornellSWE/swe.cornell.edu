@@ -4,7 +4,7 @@
 
 		<p>*If you have chosen to pay by check, please make checks payable to Cornell SWE and mail to:</p>
 
-		<p>Diversity Programs in Engineering<br/>
+		<p>Office of Inclusive Excellence<br/>
 146 Olin Hall<br/>
 Attn: Society of Women Engineers, Career Development<br/>
 Cornell University<br/>
